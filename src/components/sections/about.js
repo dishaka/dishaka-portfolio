@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Figma','Adobe XD','Adobe Photoshop','Adobe Illustrator','Adobe InDesign','CorelDraw'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +141,17 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hi my name is Dishaka Tarafdar. I design things for the world to experience. </p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+            I'm a Designer based in Mumbai, India, specializing in combining creativity and analytical thinking to innovate and create simple, impactful solutions.
+            My passions lie in exploring the intersection of state-of-the-art-technologies with UX Design for enhancing human-computer interaction.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+            I am a senior at the National Institute of Fashion Technology, where I am pursuing a Bachelor of Design in Knitwear with a minor in Communication.
+             My work is driven by the will of bridging users, business, and tech. 
+
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
