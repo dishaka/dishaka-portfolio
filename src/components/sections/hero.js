@@ -48,12 +48,17 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Dishaka Tarafdar</h2>;
+  const three = (
+    <h3 className="big-heading">
+      I work on making things pleasant and easy for the world to experience.{' '}
+    </h3>
+  );
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I seek problems that are camouflaged by its context around us and believe in understanding
+      these unseen problems which are small yet complex in nature. I address them by process-driven
+      simple design solutions to redefine people's experiences through apposite value addition.
     </p>
   );
   const five = (
