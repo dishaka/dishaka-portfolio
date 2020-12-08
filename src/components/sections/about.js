@@ -148,24 +148,25 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hi my name is Dishaka Tarafdar. I design things for the world to experience. </p>
-
+            <p>Hey! I am Dishaka Tarafdar, a passionate User Experience Designer.</p>
+            <p>I work on making things pleasant and easy for the world to experience.</p>
             <p>
-              I'm a Designer based in Mumbai, India, specializing in combining creativity and
-              analytical thinking to innovate and create simple, impactful solutions. My passions
-              lie in exploring the intersection of state-of-the-art-technologies with UX Design for
-              enhancing human-computer interaction.
+              I seek problems that are camouflaged by its context around us and believe in
+              understanding these unseen problems which are small yet complex in nature. I address
+              them by process-driven simple design solutions to redefine people's experiences
+              through apposite value addition.
             </p>
 
             <p>
               I am a senior at the National Institute of Fashion Technology, where I am pursuing a
               Bachelor of Design in Knitwear with a minor in Communication. My work is driven by the
-              will of bridging users, business, and tech. While I love to play Sherlock Holmes -
-              asking critical questions to seek out the users’ problems; occasional car jamming
-              sessions and photography are my choices of hiatus.
+              will of bridging users, business, and tech.~{'\n'}
+              While I love to play Sherlock Holmes - asking critical questions to seek out the
+              users’ problems; occasional car jamming sessions and photography are my choices of
+              hiatus.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here are a few software’s I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

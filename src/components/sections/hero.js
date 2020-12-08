@@ -49,16 +49,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Dishaka Tarafdar</h2>;
-  const three = (
-    <h3 className="big-heading">
-      I work on making things pleasant and easy for the world to experience.{' '}
-    </h3>
-  );
+  const three = <h3 className="big-heading">I design things for the world to experience. </h3>;
   const four = (
     <p>
-      I seek problems that are camouflaged by its context around us and believe in understanding
-      these unseen problems which are small yet complex in nature. I address them by process-driven
-      simple design solutions to redefine people's experiences through apposite value addition.
+      I'm a Designer based in Mumbai, India, specializing in combining creativity and analytical
+      thinking to innovate and create simple, impactful solutions.~{'\n'}
+      My passions lie in exploring the intersection of state-of-the-art-technologies with UX Design
+      for enhancing human-computer interaction.
     </p>
   );
   const five = (
