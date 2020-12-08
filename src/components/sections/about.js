@@ -160,7 +160,7 @@ const About = () => {
             <p>
               I am a senior at the National Institute of Fashion Technology, where I am pursuing a
               Bachelor of Design in Knitwear with a minor in Communication. My work is driven by the
-              will of bridging users, business, and tech.~{'\n'}
+              will of bridging users, business, and tech.{'\n'}
               While I love to play Sherlock Holmes - asking critical questions to seek out the
               users’ problems; occasional car jamming sessions and photography are my choices of
               hiatus.

@@ -356,11 +356,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--dark-pink);
+    color: var(--white);
   }
 
   .overline {
-    color: var(--dark-pink);
+    color: var(--white);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
