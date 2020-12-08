@@ -1,7 +1,7 @@
 ---
 date: '2020-02-01'
 title: 'International Marketing and Volunteering Intern'
-company: ‘AIESEC'
+company: 'AIESEC'
 location: 'Mumbai, India'
 range: 'February - March 2020'
 url: 'https://aiesec.org/'

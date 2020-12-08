@@ -1,7 +1,7 @@
 ---
 date: '2019-08-01'
 title: 'Student Ambassador'
-company: ‘OnePlus'
+company: 'OnePlus'
 location: 'Bengaluru, India'
 range: 'August - April 2020'
 url: 'https://www.oneplus.in/'

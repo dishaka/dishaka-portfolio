@@ -1,7 +1,7 @@
 ---
 date: '2020-10-01'
 title: 'Knitwear Design and Research Intern'
-company: ‘Future Group'
+company: 'Future Group'
 location: 'Mumbai, India'
 range: 'May - June 2019'
 url: 'https://www.futuregroup.in/'
