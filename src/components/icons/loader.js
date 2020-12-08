@@ -10,17 +10,13 @@ const IconLoader = () => (
           fill="currentColor"
         />
       </g>
-      <path
+      <polygon
+        id="Shape"
         stroke="currentColor"
         strokeWidth="5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M 50, 5
-                  L 11, 27
-                  L 11, 72
-                  L 50, 95
-                  L 89, 73
-                  L 89, 28 z"
+        points="90.45 78.91 46.23 104.44 2 78.91 2 27.84 46.23 2.31 90.45 27.84 90.45 78.91"
       />
     </g>
   </svg>
