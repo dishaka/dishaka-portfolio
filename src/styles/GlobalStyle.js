@@ -360,7 +360,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .overline {
-    color: var(--white);
+    color: var(--pink);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
