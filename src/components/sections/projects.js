@@ -62,7 +62,7 @@ const StyledProject = styled.div`
     height: 100%;
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    background-color: var(--light-pink);
     transition: var(--transition);
   }
 
@@ -71,7 +71,7 @@ const StyledProject = styled.div`
     margin-bottom: 30px;
 
     .folder {
-      color: var(--green);
+      color: var(--black);
       svg {
         width: 40px;
         height: 40px;
