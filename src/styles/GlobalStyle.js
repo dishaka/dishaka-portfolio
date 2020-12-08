@@ -12,9 +12,9 @@ const GlobalStyle = createGlobalStyle`
     --light-pink: #ff8a96;
     --lightest-pink: #ffa4ad;
     --pink-shadow: rgba(255, 87, 104, 0.7);
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --slate: #363a46;
+    --light-slate: #444958;
+    --lightest-slate: #515769;
     --white: #FAF4F4;
     --black: ##3B3B3B;
     --black-tint: rgba(72, 70, 70, 0.1);
