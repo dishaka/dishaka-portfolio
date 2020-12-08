@@ -2,7 +2,7 @@
 date: '2019-06-01'
 title: 'Graphic Design Intern'
 company: ‘Future Group'
-location: 'Mumbai, India’
+location: 'Mumbai, India'
 range: 'June - July 2019'
 url: 'https://www.futuregroup.in/'
 ---

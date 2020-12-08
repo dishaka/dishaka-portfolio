@@ -2,7 +2,7 @@
 date: '2020-10-01'
 title: 'User Experience Design Intern'
 company: ‘Covered by SAGE'
-location: 'Georgia, Atlanta’
+location: 'Georgia, Atlanta'
 range: 'October - December 2020'
 url: 'https://www.coveredbysage.com/'
 ---
