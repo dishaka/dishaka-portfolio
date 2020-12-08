@@ -92,7 +92,7 @@ const mixins = {
   smallButton: css`
     color: var(--black);
     background-color: transparent;
-    border: 1px solid var(--black);
+    border: 1px solid var(--pink);
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
     font-size: var(--fz-xs);
