@@ -100,7 +100,7 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--pink);
+      background-color: var(--white);
       mix-blend-mode: screen;
     }
 

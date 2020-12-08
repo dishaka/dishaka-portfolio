@@ -72,7 +72,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--pink);
+    background-color: var(--white);
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
