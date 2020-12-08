@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: var(--pink);
+  background-color: var(--light-pink);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
