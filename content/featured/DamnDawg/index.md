@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'DamnDawg: Dog Adoption App'
 cover: './demo.png'
 github: 

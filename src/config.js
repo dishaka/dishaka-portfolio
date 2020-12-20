@@ -2,25 +2,25 @@ module.exports = {
   email: 'dishakatarafdar.dt@gmail.com',
 
   socialMedia: [
-    {
-      name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
+    // {
+    //   name: 'GitHub',
+    //   url: 'https://github.com/bchiang7',
+    // },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/dishaka-tarafdar-877b4117b/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'Behance',
+      url: 'https://www.behance.net/dishakatarafdar',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/dishakaaa/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/dishakatarafdar?lang=en',
     },
   ],
 
