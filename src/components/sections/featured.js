@@ -273,7 +273,6 @@ const Featured = () => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  return undefined;
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
