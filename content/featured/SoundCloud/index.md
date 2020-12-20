@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'SoundCloud App Re-design'
-cover: './demo.jpg'
+cover: './demo.png'
 github: 
 external: 
 tech:
