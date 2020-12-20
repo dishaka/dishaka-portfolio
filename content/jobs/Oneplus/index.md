@@ -1,5 +1,5 @@
 ---
-date: '2019-08-01'
+date: '2020-09-01'
 title: 'Student Ambassador'
 company: 'OnePlus'
 location: 'Bengaluru, India'
