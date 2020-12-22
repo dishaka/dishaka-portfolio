@@ -7,6 +7,7 @@ tech:
   - Illustrator
   - Photoshop
   - Adobe In Design
+company: 
 showInProjects: true
 ---
 

@@ -170,6 +170,7 @@ const ArchivePage = ({ location, data }) => {
                     external,
                     title,
                     tech,
+                    company,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -237,6 +238,7 @@ export const pageQuery = graphql`
             tech
             github
             external
+            company
           }
           html
         }
