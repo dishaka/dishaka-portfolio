@@ -142,7 +142,6 @@ const StyledTabContent = styled.div`
 
     .company {
       color: var(--black);
-      text-decoration: underline;
     }
   }
 
@@ -265,9 +264,11 @@ const Jobs = () => {
                     <span>{title}</span>
                     <span className="company">
                       &nbsp;@&nbsp;
+                      <u>
                       <a href={url} className="inline-link">
                         {company}
                       </a>
+                      </u>
                     </span>
                   </h3>
 
