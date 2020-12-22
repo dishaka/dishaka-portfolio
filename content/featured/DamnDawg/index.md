@@ -3,7 +3,7 @@ date: '1'
 title: 'DamnDawg: Dog Adoption App'
 cover: './demo.png'
 github: 
-external: 
+external: 'https://www.behance.net/gallery/102568437/DamnDawg-A-Dog-Adoption-UX-UI-App-Concept'
 tech:
   - Adobe XD
   - Figma
