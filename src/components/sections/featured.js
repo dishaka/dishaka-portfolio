@@ -94,7 +94,7 @@ const StyledProject = styled.div`
   }
 
   .project-title {
-    color: var(--lightest-slate);
+    color: var(--light-pink);
     font-size: clamp(24px, 5vw, 28px);
 
     @media (min-width: 768px) {
