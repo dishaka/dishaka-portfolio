@@ -67,7 +67,7 @@ const StyledTabButton = styled.button`
   padding: 0 20px 2px;
   border-left: 2px solid var(--lightest-pink);
   background-color: transparent;
-  color: ${({ isActive }) => (isActive ? 'var(--black)' : 'var(--slate)')};
+  color: ${({ isActive }) => (isActive ? 'var(--pink)' : 'var(--slate)')};
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
   text-align: left;
