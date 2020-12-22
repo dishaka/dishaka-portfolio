@@ -65,7 +65,6 @@ const StyledTabButton = styled.button`
   width: 100%;
   height: var(--tab-height);
   padding: 0 20px 2px;
-  text-decoration: underline;
   border-left: 2px solid var(--lightest-pink);
   background-color: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--pink)' : 'var(--slate)')};
@@ -143,6 +142,7 @@ const StyledTabContent = styled.div`
 
     .company {
       color: var(--black);
+      text-decoration: underline;
     }
   }
 
