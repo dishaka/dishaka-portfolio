@@ -261,6 +261,7 @@ const GlobalStyle = createGlobalStyle`
 
     &.inline-link {
       ${({ theme }) => theme.mixins.inlineLink};
+      text-decoration: underline;
     }
   }
 
