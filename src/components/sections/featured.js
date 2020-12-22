@@ -102,7 +102,7 @@ const StyledProject = styled.div`
     }
 
     @media (max-width: 768px) {
-      color: var(--white);
+      color: var(--lightest-slate);
     }
   }
 
