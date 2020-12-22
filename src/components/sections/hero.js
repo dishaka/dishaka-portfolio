@@ -49,7 +49,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Dishaka Tarafdar</h2>;
-  const three = <h3 className="big-heading">I design things for the world to experience. </h3>;
+  // const three = <h3 className="big-heading">I design things for the world to experience. </h3>;
   const four = (
     <p>
       I'm a Designer based in Mumbai, India, specializing in combining creativity and analytical
@@ -64,7 +64,8 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, four, five];
 
   return (
     <StyledHeroSection>
