@@ -7,7 +7,7 @@ tech:
   - Illustrator
   - Photoshop
   - Adobe In Design
-company:
 showInProjects: true
 ---
+
 A surfwear collection for women, which plays on the concept of being controlled yet crazy, showcasing free-spirited prints within clean-cut silhouettes. 

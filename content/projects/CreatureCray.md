@@ -6,7 +6,6 @@ external: 'https://www.behance.net/gallery/108547029/Creature-Cray-Kidswear-Prin
 tech:
   - Illustrator
   - Photoshop
-company:
 showInProjects: true
 ---
 

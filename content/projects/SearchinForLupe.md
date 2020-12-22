@@ -6,7 +6,6 @@ external: 'https://www.behance.net/gallery/108548705/Photography-Production-Book
 tech:
   - Illustrator
   - Photoshop
-company:
 showInProjects: true
 ---
 
