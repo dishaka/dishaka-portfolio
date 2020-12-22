@@ -149,7 +149,6 @@ const About = () => {
         <StyledText>
           <div>
             <p>Hey! I am Dishaka Tarafdar, a passionate User Experience Designer.</p>
-            <p>I work on making things pleasant and easy for the world to experience.</p>
             <p>
               I seek problems that are camouflaged by its context around us and believe in
               understanding these unseen problems which are small yet complex in nature. I address
@@ -166,7 +165,7 @@ const About = () => {
               hiatus.
             </p>
 
-            <p>Here are a few software’s I've been working with recently:</p>
+            <p>Software suit I am adept at:</p>
           </div>
 
           <ul className="skills-list">
