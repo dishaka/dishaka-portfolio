@@ -49,7 +49,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Dishaka Tarafdar</h2>;
-  const three = <h3 className="big-heading">I design experiences for the world. </h3>;
+  const three = <h3 className="big-heading">I am a creative problem solver.</h3>;
   const four = (
     <p>
       I'm a Designer based in Mumbai, India, specializing in combining creativity and analytical
