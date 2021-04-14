@@ -1,6 +1,6 @@
 ---
 date: '2021-01-01'
-title: 'Graduation Project @ Myntra'
+title: 'Graduation Project'
 company: 'Myntra'
 location: 'Mumbai, India'
 range: 'Jan - April 2021'
