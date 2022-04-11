@@ -210,7 +210,7 @@ const Projects = () => {
                             </a>
                           )}
                           {external && (
-                            <a href={external} aria-label="External Link">
+                            <a href={external} aria-label="External Link" target="_blank">
                               <Icon name="External" />
                             </a>
                           )}
