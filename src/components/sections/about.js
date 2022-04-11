@@ -148,18 +148,16 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hey! I am Dishaka Tarafdar, a passionate User Experience Designer.</p>
-            <p>
-              I seek problems that are camouflaged by its context around us and believe in
-              understanding these unseen problems which are small yet complex in nature. I address
-              them by process-driven simple design solutions to redefine people's experiences
-              through apposite value addition.
+            <p>Hey! I am Dishaka Tarafdar, a User Experience Designer.
+              I believe in character, kindness, and discipline - that small changes can produce incremental results every day. I am a graduate in design 
+              and a human-loving professional who works on products and systems that balance simplicity, user expectations and eye-catching aesthetics.
+              My work is driven by the will of bridging users, business, and tech.
+
             </p>
 
             <p>
-              I am a senior at the National Institute of Fashion Technology, where I am pursuing a
-              Bachelor of Design in Knitwear with a minor in Communication. My work is driven by the
-              will of bridging users, business, and tech.{'\n'}
+              I am passionate about sustainability, and I love exploring how technology, social diversity and inclusivity can solve sustainability 
+              challenges.{'\n'}
               While I love to play Sherlock Holmes - asking critical questions to seek out the
               users’ problems; occasional car jamming sessions and photography are my choices of
               hiatus.
