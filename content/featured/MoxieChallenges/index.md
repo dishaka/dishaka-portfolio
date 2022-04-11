@@ -3,11 +3,10 @@ date: '3'
 title: 'Moxie Challenges'
 cover: './demo.png'
 github: 
-external: 'https://www.behance.net/gallery/104413635/SoundCloud-App-Re-Design'
+external: 'https://www.behance.net/gallery/141461669/Moxie-Challenges?'
 tech:
-  - Adobe XD
   - Figma
 showInProjects: true
 ---
 
-Enriching the Moxie experience to create an efficent marketplace for Moxie Challenges as a new feature
+Enriching the Moxie experience to create an efficent marketplace for fitness challenges. 
