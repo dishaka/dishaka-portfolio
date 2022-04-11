@@ -157,7 +157,9 @@ const About = () => {
 
             <p>
               I am passionate about sustainability, and I love exploring how technology, social diversity and inclusivity can solve sustainability 
-              challenges.{'\n'}
+              challenges.
+            </p>
+            <p>
               While I love to play Sherlock Holmes - asking critical questions to seek out the
               users’ problems; occasional car jamming sessions and photography are my choices of
               hiatus.
