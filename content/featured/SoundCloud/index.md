@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'SoundCloud App Re-design'
 cover: './demo.png'
 github: 

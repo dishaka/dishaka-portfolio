@@ -215,7 +215,7 @@ const StyledProject = styled.div`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--light-pink);
+        background-color: var(--slate);
         mix-blend-mode: screen;
       }
     }
