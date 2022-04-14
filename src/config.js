@@ -12,7 +12,7 @@ module.exports = {
     },
     {
       name: 'Spotify',
-      url: 'https://www.linkedin.com/in/dishaka-tarafdar-877b4117b/',
+      url: 'https://open.spotify.com/show/7fZTkJDMSMbT1j5uBMUagA?si=975d5488ea7d4f40',
     },
     {
       name: 'Linkedin',
