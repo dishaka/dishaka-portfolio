@@ -7,6 +7,14 @@ module.exports = {
     //   url: 'https://github.com/bchiang7',
     // },
     {
+      name: 'Medium',
+      url: 'https://medium.com/@dishaka99',
+    },
+    {
+      name: 'Spotify',
+      url: 'https://www.linkedin.com/in/dishaka-tarafdar-877b4117b/',
+    },
+    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/dishaka-tarafdar-877b4117b/',
     },
@@ -17,10 +25,6 @@ module.exports = {
     {
       name: 'Instagram',
       url: 'https://www.instagram.com/dishakaaa/',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/dishakatarafdar?lang=en',
     },
   ],
 
@@ -36,6 +40,10 @@ module.exports = {
     {
       name: 'Work',
       url: '/#projects',
+    },
+    {
+      name: 'Blog',
+      url: '/#blog',
     },
     {
       name: 'Contact',
