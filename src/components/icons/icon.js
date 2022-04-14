@@ -9,6 +9,8 @@ import {
   IconGitHub,
   IconInstagram,
   IconLinkedin,
+  IconMedium,
+  IconSpotify,
   IconLoader,
   IconLocation,
   IconLogo,
@@ -37,6 +39,10 @@ const Icon = ({ name }) => {
       return <IconInstagram />;
     case 'Linkedin':
       return <IconLinkedin />;
+    case 'Medium':
+      return <IconMedium />;
+    case 'Spotify':
+      return <IconSpotify />
     case 'Loader':
       return <IconLoader />;
     case 'Location':
