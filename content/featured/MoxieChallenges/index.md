@@ -3,7 +3,8 @@ date: '3'
 title: 'Moxie Challenges'
 cover: './demo.png'
 github: 
-external: 'https://www.behance.net/gallery/141461669/Moxie-Challenges?'
+external: 'featured_internal/moxie_challenges'
+internal: 'featured_internal/moxie_challenges'
 tech:
   - Figma
 showInProjects: true
