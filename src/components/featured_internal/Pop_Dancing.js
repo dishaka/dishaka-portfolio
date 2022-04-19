@@ -26,6 +26,7 @@ const StyledHeroSection = styled.section`
   .mainimg {
     //   min-width: 99.99vw;
       min-width: 100vw;
+      margin: 0 0 0 -12vw;
   }
 
   h3 {
