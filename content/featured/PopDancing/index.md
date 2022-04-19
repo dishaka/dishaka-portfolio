@@ -4,7 +4,7 @@ title: 'POP Dancing'
 cover: './demo.png'
 github: 
 external: 'https://www.behance.net/gallery/140216547/POP-Dancing-Learning-Dance-App'
-internal: 'https://www.behance.net/gallery/140216547/POP-Dancing-Learning-Dance-App'
+internal: 'featured_internal/pop_dancing'
 tech:
   - Figma
 showInProjects: true
