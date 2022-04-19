@@ -3,7 +3,7 @@ date: '2'
 title: 'POP Dancing'
 cover: './demo.png'
 github: 
-external: 'https://www.behance.net/gallery/140216547/POP-Dancing-Learning-Dance-App'
+external: 'featured_internal/pop_dancing'
 internal: 'featured_internal/pop_dancing'
 tech:
   - Figma
