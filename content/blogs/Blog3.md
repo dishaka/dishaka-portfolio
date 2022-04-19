@@ -2,7 +2,7 @@
 date: '2020-03-25'
 title: '6 signs you are meant to break into UX'
 github: ''
-external: 'https://medium.com/design-bootcamp/my-first-six-months-as-a-ux-designer-1a8a7d413d43'
+external: 'https://medium.com/design-bootcamp/6-signs-youre-meant-to-break-into-ux-523a84dca878'
 tech:
 showInProjects: true
 ---
