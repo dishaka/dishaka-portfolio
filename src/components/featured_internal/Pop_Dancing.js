@@ -15,7 +15,8 @@ const StyledHeroSection = styled.section`
     display: flex;
     justify-content: center;
     width: 1000px;
-    max-height: 21px;
+    max-height: 25px;
+    margin-top: 60px;
     @media (max-width: 480px) {
       max-width: 100vw;
       margin: 100px 0 0 0;
@@ -24,10 +25,10 @@ const StyledHeroSection = styled.section`
 
   .title {
     height: 21px;
-    font-family: 'Roboto';
+    font-family: var(--font-mono);
     font-style: normal;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 163.4%;
 
     /* or 21px */
@@ -35,7 +36,7 @@ const StyledHeroSection = styled.section`
     // margin: 0 0 0 441px;
     color: #C4C4C4; 
     @media (max-width: 480px) {
-      font-family: 'Roboto';
+      font-family: var(--font-mono);
       font-style: normal;
       font-weight: 700;
       font-size: 13px;
@@ -139,11 +140,11 @@ const StyledHeroSection = styled.section`
     width: 140px;
     height: 21px;
 
-    font-family: 'Roboto';
+    font-family: var(--font-mono);
     font-style: normal;
     font-weight: 600;
-    font-size: 13px;
-    line-height: 163.4%;
+    font-size: 17px;
+    line-height: 20px;
 
     /* or 21px */
 
@@ -158,8 +159,8 @@ const StyledHeroSection = styled.section`
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 17px;
+    line-height: 20px;
     margin-top: 10px;
     margin-bottom: 22px;
     /* or 123% */
