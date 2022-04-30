@@ -14,6 +14,12 @@ import soundclod_img_mob5 from '../../images/soundcloud_img_mob5.png'
 import soundclod_img_mob6 from '../../images/soundcloud_img_mob6.png'
 import soundclod_img_mob7 from '../../images/soundcloud_img_mob7.png'
 import soundclod_img_mob8 from '../../images/soundcloud_img_mob8.png'
+import soundcloud_img10 from '../../images/soundcloud_img10.png'
+import SC1 from '../../images/SC1.gif'
+import SC2 from '../../images/SC2.gif'
+import SC3 from '../../images/SC3.gif'
+import SC4 from '../../images/SC4.gif'
+import SC5 from '../../images/SC5.gif'
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -112,14 +118,44 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg1 {
-    max-width: 573px;
+    max-width: 362px;
     max-height: 372px;
-    margin: 50px 0 0 0;
+    margin: 0px 0 0 0;
     @media (max-width: 480px) {
       max-width: 281px;
       max-height: 289.74px;
       margin: 36px 0 0 47px;
     }
+  }
+
+  .gif1 {
+    max-width: 189px;
+    max-height: 372px;
+    margin: 0 0px 0 22px;
+  }
+
+  .gif2 {
+    max-width: 208px;
+    max-height: 424px;
+    margin: 0 0px 0 47px;
+  }
+
+  .gif3 {
+    max-width: 215px;
+    max-height: 424px;
+    margin: 0 0px 0 47px;
+  }
+
+  .gif4 {
+    max-width: 172px;
+    max-height: 349px;
+    margin: 0 0px 0 9px;
+  }
+
+  .gif5 {
+    max-width: 204px;
+    max-height: 424px;
+    margin: -40px 0 0 34px;
   }
 
   .mainimg1_1 {
@@ -134,7 +170,7 @@ const StyledHeroSection = styled.section`
   .descrip {
         width: 360px;
         height: 277px;
-        margin: 90px 0 0 30px;
+        margin: 40px 0 0 30px;
   }
 
   .descrip2 {
@@ -203,8 +239,8 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg2 {
-      max-width: 444.52px;
-      max-height: 424px;
+      max-width: 189px; //255
+      max-height: 276px;
       margin: 0 0 0 30px;
       @media (max-width: 480px) {
         max-width: 304px;
@@ -276,8 +312,8 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg3 {
-      max-width: 449px;
-      max-height: 424px;
+      max-width: 192px; //257
+      max-height: 240px;
       margin: 0 0 0 39px;
       @media (max-width: 480px) {
         max-width: 307.1px;
@@ -356,9 +392,15 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg4 {
-      max-width: 707px;
+      max-width: 341px; //366
       max-height: 349px;
       margin: 0 0 0 23px;
+  }
+
+  .mainimg4_1 {
+    max-width: 176px; 
+    max-height: 349px;
+    margin: 0 0 0 9px
   }
 
   .descrip4 {
@@ -428,7 +470,7 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg5 {
-      max-width: 444px;
+      max-width: 206px; //238
       max-height: 424px;
       margin: -40px 0 0 39px;
       @media (max-width: 480px) {
@@ -523,6 +565,12 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  // .sc5 {
+  //   max-width: 222px;
+  //   max-height: 424px;
+  //   margin: -424px 0 0 460px;
+  // }
+
   ul {
     margin: 16px 0 0 0;
     padding: 0
@@ -555,8 +603,9 @@ const SoundCloud_Navigation = () => {
 
   const four = <div className='groupie'>
                     <img className="mainimg1" src={soundcloud_img5} alt="Main img"></img>
+                    <img className="gif1" src={SC1} alt="Main img"></img>
                     <div className='descrip'>
-                        <div className='descrip_title'>Instructor Profile</div>
+                        <div className='descrip_title'>Home Screen</div>
                         <div className='descrip_text'>My modified version of Home Screen. This version includes More of What You Like, The Upload, SoundCloud Weekly. This is completely customised according to the user, hence giving an easy selection of songs similar to user’s tastes, giving a more personalised experience.
                             <ul>
                                 <li>Reduced number of categories as too many create complexity (according to MIller’s Law)</li>
@@ -578,10 +627,12 @@ const SoundCloud_Navigation = () => {
                     </div>
                 </div>
                 <img className="mainimg2" src={soundcloud_img6} alt="Main img"></img>
+                <img className="gif2" src={SC2} alt="Main img"></img>
                 </div>;
 
   const six = <div className='groupie'>
                 <img className="mainimg3" src={soundcloud_img7} alt="Main img"></img>
+                <img className="gif3" src={SC3} alt="Main img"></img>
                 <div className='descrip3'>
                     <div className='descrip_title3'>Podcasts</div>
                     <div className='descrip_text3'>Including a dedicated section for podcasts in SoundCloud, makes it the perfect platform for free flow of audio based creativity. Taking into accordance user’s needs, I decided the four main categories needed.
@@ -606,10 +657,13 @@ const seven = <div className='groupie'>
                     </div>
                 </div>
                 <img className="mainimg4" src={soundcloud_img8} alt="Main img"></img>
+                <img className="gif4" src={SC4} alt="Main img"></img>
+                <img className="mainimg4_1" src={soundcloud_img10} alt="Main img"></img>
                 </div>;
 
 const eight = <div className='groupie'>
                 <img className="mainimg5" src={soundcloud_img9} alt="Main img"></img>
+                <img className="gif5" src={SC5} alt="Main img"></img>
                 <div className='descrip5'>
                     <div className='descrip_title5'>Settings</div>
                     <div className='descrip_text5'>And ofcourse, I am obsessed with dark mode everything, so I had to include it in my design. Plus a user I interviewed was unaware about this option on SoundCloud, as it is difficult to locate. So I making it easier here.
@@ -622,8 +676,9 @@ const eight = <div className='groupie'>
                 </div>;
     
     const ten = <div className='groupie_mob'>
-            <div className='descrip_title'>Instructor Profile</div>
-            <img className="mainimg1" src={soundclod_img_mob5} alt="Main img"></img>    
+            <div className='descrip_title'>Home Screen</div>
+            <img className="mainimg1" src={soundclod_img_mob5} alt="Main img"></img>
+            <img className="SC1" src={SC1} alt="Main img"></img>       
                 <div className='descrip_text'>My modified version of Home Screen. This version includes More of What You Like, The Upload, SoundCloud Weekly. This is completely customised according to the user, hence giving an easy selection of songs similar to user’s tastes, giving a more personalised experience.
                     <ul>
                         <li>Reduced number of categories as too many create complexity (according to MIller’s Law)</li>
