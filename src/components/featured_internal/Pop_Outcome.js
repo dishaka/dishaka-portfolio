@@ -25,7 +25,7 @@ const StyledHeroSection = styled.section`
     width: 68px;
     height: 23px;
     
-    font-family: 'Roboto';
+    font-family: var(--font-mono);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -39,7 +39,7 @@ const StyledHeroSection = styled.section`
         width: 68px;
         height: 23px;
 
-        font-family: 'Roboto';
+        font-family: var(--font-mono);
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
@@ -93,8 +93,8 @@ const StyledHeroSection = styled.section`
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 20px;
 
     /* or 129% */
     font-feature-settings: 'cpsp' on;
