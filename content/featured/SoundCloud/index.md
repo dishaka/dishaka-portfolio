@@ -3,8 +3,8 @@ date: '1'
 title: 'SoundCloud App Re-design'
 cover: './demo.png'
 github: 
-external: 'https://www.behance.net/gallery/104413635/SoundCloud-App-Re-Design'
-internal: 'https://www.behance.net/gallery/104413635/SoundCloud-App-Re-Design'
+external: 'featured_internal/soundcloud'
+internal: 'featured_internal/soundcloud'
 tech:
   - Adobe XD
   - Figma
