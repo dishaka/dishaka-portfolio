@@ -24,3 +24,16 @@
     }
   }
 
+.custom_background_soundcloud {
+    background-image: url(./background_one.png);
+    background-repeat: no-repeat;
+    background-size: 100% 629px;
+    background-position: 0 100%;
+}
+
+
+@media (max-width: 480px) {
+    .custom_background_soundcloud {
+        background-size: 100% 551px;
+    }
+  }
