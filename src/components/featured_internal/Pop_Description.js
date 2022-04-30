@@ -68,8 +68,8 @@ const StyledHeroSection = styled.section`
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 20px;
     
     /* or 129% */
     margin-top: 28px;
@@ -99,8 +99,8 @@ const StyledHeroSection = styled.section`
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 20px;
     
     /* or 129% */
     margin: 12px 0 0 0;
