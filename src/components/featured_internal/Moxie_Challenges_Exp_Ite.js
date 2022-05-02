@@ -22,15 +22,14 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
   color: white;
-  font-family: var(--font-sans);
 
   .header_container {
       display: flex;
-      justify-content: space-between;
-      width: auto;
-      margin: 5% 60px 0 0;
+      flex-direction: row;
+      width: 849px;
+      height: 203px;
+      margin: 58px 0 0 76px;
       @media (max-width: 480px) {
         flex-wrap: wrap;
         flex-direction: column;
@@ -47,23 +46,43 @@ const StyledHeroSection = styled.section`
       font-weight: bolder;
   }
 
-  .header_container h1 {
-      min-width: 30%;
-      color: white;
-      // font-family: var(--font-sans);
-      padding: 0 0 0 60px;
-      font-size: var(--fz-heading);
-      font-weight: bolder;
+  .header_container_h1 {
+    width: 241px;
+    height: 112px;
+    left: 440px;
+    top: 7313px;
+    
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    
+    /* or 128% */
+    
+    color: #FFFFFF;
       @media (max-width: 480px) {
         margin-bottom: 25px;
       }
   }
 
-  .header_container p {
-      font-size: var(--fz-md);
-      font-family: var(--font-sans);
-      padding: 0 0 0 25%;
-      color: white;
+  .header_container_p {
+    width: 442px;
+    height: 203px;
+    left: 847px;
+    top: 7313px;
+    
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    
+    /* or 133% */
+    font-feature-settings: 'cpsp' on;
+    
+    color: #FFFFFF;
+    margin: 0 0 0 166px;
       @media (max-width: 480px) {
         margin: 0 -30px 0 0;
         padding: 0 0 0 62px;
@@ -71,12 +90,11 @@ const StyledHeroSection = styled.section`
   }
 
   .photo_grid {
-    margin: 10% 0 0 0;
-    padding: 0 0 0 60px;
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 20px;
-    row-gap: 40px;
+    column-gap: 38px;
+    row-gap: 72px;
+    margin: 92px 12px 50px 12px;
     @media (max-width: 480px) {
       grid-template-columns: auto;
     }
@@ -86,7 +104,18 @@ const StyledHeroSection = styled.section`
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-weight: bolder;
+      font-family: var(--font-mono);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 187.4%;
+
+      /* or 28px */
+      text-align: center;
+
+      color: #C4C4C4;
+
+
   }
 
   .flex_container_blank{
@@ -100,8 +129,9 @@ const StyledHeroSection = styled.section`
 }
 
   .mainimg {
-      max-width: 300px;
-      max-height: 300px;
+      max-width: 293;
+      max-height: 288px;
+      margin: 12.46px 0 0 0;
   }
 
   .mainimg:hover {
@@ -112,8 +142,7 @@ const StyledHeroSection = styled.section`
   .points_mainimg {
       min-width: 300px;
       max-width: 301px;
-      // max-height: 50px;
-      // background: white;
+      margin: 10px 0 0 0;
       margin: 10px 0 0 0;
       // display: none;
   }
@@ -128,8 +157,8 @@ const Moxie_Challenges_Exp_Ite = () => {
   }, []);
 
   const one = <div className="header_container">
-                <h1>Exploration and Iteration</h1>
-                <p>Initially I explored many different ways an attendee would be able to discover a challenge -
+                <div className='header_container_h1'>Exploration and Iteration</div>
+                <div className='header_container_p'>Initially I explored many different ways an attendee would be able to discover a challenge -
                     from their profile page, from the workout details page and from the home page.
                     I also explored different types of Challenge pages and card types as well as the usage of
                     filters. As a part of my process, I detailed out every single flow and weighed the pros
@@ -137,7 +166,7 @@ const Moxie_Challenges_Exp_Ite = () => {
                     <br></br>
                     Although the most intuitive entry point was from the top navigation bar itself, we decided
                     to go for it, replacing the ‘Discover’ and ‘Browse’ CTA’s with ‘Workouts’
-                    and ‘Challenges’.</p>
+                    and ‘Challenges’.</div>
             </div>;
   const two = <div className="photo_grid">
                 <div className="flex_container">V1
