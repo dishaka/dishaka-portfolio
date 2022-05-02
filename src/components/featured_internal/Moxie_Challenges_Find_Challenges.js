@@ -5,8 +5,9 @@ import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import BackgroundOne from './background_one.png';
 import Moxie_Challenges_Photo2 from '../../../src/images/Moxie_Challenges_photo2.png';
+import GIFBorder from '../../../src/images/moxie_challenges_gifrect.png';
 import styles from './Moxie_Challenges_Background.module.css';
-
+import MainGIF from '../../../src/images/Moxie_challenges.gif';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -59,9 +60,12 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg{
-    min-width: 995px;
-    min-height: 644px;
-    margin: 80px 0 50px 2.5px;
+    min-width: 971px;
+    max-width: 972px;
+    min-height: 615px;
+    max-height: 616px;
+    border-radius: 12px;
+    margin: 80px 0 0px 14px;
     @media (max-width: 480px) {
       margin: 10% 0% 0 5%;
       padding: 0 10% 0 0;
@@ -69,6 +73,8 @@ const StyledHeroSection = styled.section`
       max-height: 342px;
     }
 }
+  .gifborder {
+    margin: -631.5px 0 50px 0px;
   }
 
 `;
@@ -89,7 +95,10 @@ const Moxie_Challenges_Find_Challenges = () => {
       the primary focus on discoverability and group features. We placed the top nav bar as the primary
       focus area and added several other carousels curated for the attendees according to their likings.
       </div>;
-  const three = <img className="mainimg" src={Moxie_Challenges_Photo2} alt="Main img"></img>;;
+  const three = <div>
+        <img className="mainimg" src={MainGIF} alt="Main img"></img>
+        <img className='gifborder' src={GIFBorder} alt="Main img"></img>
+        </div>
 
   const items = [one, two, three];
 
