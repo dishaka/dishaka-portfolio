@@ -26,10 +26,10 @@ const StyledHeroSection = styled.section`
   font-family: var(--font-sans);
 
   .header_container {
+    width: 849px;
+    height: 179px;
+    margin: 80px 0 0 76px;
     display: flex;
-    justify-content: space-between;
-    width: auto;
-    margin: 5% 60px 0 0;
     @media (max-width: 480px) {
       flex-wrap: wrap;
       flex-direction: column;
@@ -37,42 +37,86 @@ const StyledHeroSection = styled.section`
     }
 }
 
-.headers_title {
-  max-width: 100%;
-    color: white;
-    font-family: var(--font-sans);
-    padding: 0 0 0 60px;
-    font-size: var(--fz-heading);
-    font-weight: bolder;
-}
-
-.header_container h1 {
-    min-width: 30%;
-    color: white;
-    // font-family: var(--font-sans);
-    padding: 0 0 0 60px;
-    font-size: var(--fz-heading);
-    font-weight: bolder;
+.header_container_h1 {
+  width: 241px;
+  height: 112px;
+  left: 440px;
+  top: 9025px;
+  
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  
+  /* or 128% */
+  
+  color: #FFFFFF;
     @media (max-width: 480px) {
       margin-bottom: 25px;
     }
 }
 
-.header_container p {
-    font-size: var(--fz-md);
-    font-family: var(--font-sans);
-    padding: 0 0 0 25%;
-    color: white;
+.header_container_p {
+  width: 442px;
+  height: 179px;
+  left: 847px;
+  top: 9025px;
+  
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  
+  /* or 133% */
+  font-feature-settings: 'cpsp' on;
+  margin: 0 0 79px 166px;
+  color: #FFFFFF;
     @media (max-width: 480px) {
       margin: 0 -30px 0 0;
       padding: 0 0 0 62px;
     }
 }
 
-  .semi_header {
-      font-size: var(--fz-xxl);
-      font-weight: bolder;
-      margin: 10% 0 4% 0;
+  .semi_header_light {
+    width: 950px;
+    height: 26px;
+    left: 366px;
+    top: 9316px;
+    
+    font-family: var(--font-mono);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 187.4%;
+    
+    /* or 26px */
+    
+    color: #FFFFFF;
+      margin: 112px 0 0 2px;
+      @media (max-width: 480px) {
+        padding: 0 0 0 40px;
+        margin-left: -15px;
+      }
+  }
+
+  .semi_header_dark {
+    width: 950px;
+    height: 26px;
+    left: 366px;
+    top: 9316px;
+    
+    font-family: var(--font-mono);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 187.4%;
+    
+    /* or 26px */
+    
+    color: #FFFFFF;
+      margin: 33px 0 0 2px;
       @media (max-width: 480px) {
         padding: 0 0 0 40px;
         margin-left: -15px;
@@ -83,8 +127,9 @@ const StyledHeroSection = styled.section`
     padding: 0 0 0 0px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap: 10px;
-    row-gap: 60px;
+    column-gap: 18px;
+    // row-gap: 60px;
+    margin: 40px 0 0 0;
     @media (max-width: 480px) {
         grid-template-columns: auto auto;
         padding: 0 5px 0 8px;
@@ -95,12 +140,24 @@ const StyledHeroSection = styled.section`
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-weight: bolder;
+      font-style: normal;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 187.4%;
+
+      /* or 26px */
+      text-align: center;
+
+      color: #C4C4C4;
   }
 
   .mainimg {
-      max-width: 235px;
-      max-height: 340px;
+      max-width: 226.9px;
+      max-height: 337.21px;
+      min-width: 226px;
+      min-height: 337px;
+      margin: 22px 0 0px 0;
       @media (max-width: 480px) {
         max-width: 201px;
         max-height: 301px;
@@ -128,6 +185,12 @@ const StyledHeroSection = styled.section`
             max-width: 196px;
         }
   }
+
+  .extmar {
+    width: 0;
+    height: 0;
+    margin: 0 0 55px 0;
+  }
 `;
 
 const Moxie_Challenges_Exp_Ite = () => {
@@ -139,8 +202,8 @@ const Moxie_Challenges_Exp_Ite = () => {
   }, []);
 
   const one = <div className="header_container">
-                <h1>Card Types and Designs</h1>
-                <p>Throughout the project, requirements changes and new constraints were uncovered.
+                <div className='header_container_h1'>Card Types and Designs</div>
+                <div className='header_container_p'>Throughout the project, requirements changes and new constraints were uncovered.
                     Early on, I set a list of requirements which kept on having minor tweaks and
                     adjustments, so I decided to make some elements that could be shifted and moved
                     around depending on priorities.
@@ -148,10 +211,10 @@ const Moxie_Challenges_Exp_Ite = () => {
                     <br></br> 
                     Ultimately I made 2 different layouts for card types, both the light and dark
                     mode as we were undergoing a branding refresh at the same time. I wanted to
-                    keep both options open and handy in case of any quick last minute changes.</p>
+                    keep both options open and handy in case of any quick last minute changes.</div>
             </div>;
   const two = <>
-                <div className="semi_header">Light Mode:</div>
+                <div className="semi_header_light">Light Mode:</div>
                     <div className="photo_grid">
                         <div className="flex_container">V1
                         <img className="mainimg" src={CardOne} alt="Main img"></img>
@@ -174,7 +237,7 @@ const Moxie_Challenges_Exp_Ite = () => {
                     </div>
                 </div>
 
-                <div className="semi_header">Dark Mode:</div>
+                <div className="semi_header_dark">Dark Mode:</div>
                     <div className="photo_grid">
                     <div className="flex_container">V1
                         <img className="mainimg" src={CardFive} alt="Main img"></img>
@@ -195,6 +258,7 @@ const Moxie_Challenges_Exp_Ite = () => {
                         <img className="mainimg" src={CardEight} alt="Main img"></img>
                         {/* <img className="card_mainimg" src={CardSix} alt="Main img"></img> */}
                     </div>
+                    <div className='extmar'></div>
                 </div>
             </>;
 
