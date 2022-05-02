@@ -7,34 +7,48 @@ import { navDelay, loaderDelay } from '@utils';
 const Styled_Moxie_Challenges_Problems_Section = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
-  align-items: flex-centre;
-  min-height: 100vh;
-  font-family: var(--font-sans);
+  align-items: flex-start;
 
-  .problems {
-    margin: 0 0 30px 15%;
-    color: black;
-    font-family: var(--font-sans);
-    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
-    font-weight: 400;
-    max-width: 50%;
-
+  .outcome {
+    width: 492px;
+    height: 287px;
+    margin: 80px 0 0 155px;
     @media (max-width: 480px) {
       margin: 0 0 75px 5%;
     }
   }
 
-  .problems h1 {
-    font-size: var(--fz-md);
-    margin: 0 0 16px 0px;
-    padding-right: 60px;
-    color: var(--light-slate);
-    font-family: var(--font-sans);
+  .outcome_h1 {
+    font-family: var(--font-mono);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 163.4%;
+
+    /* identical to box height, or 25px */
+    letter-spacing: 0.01em;
+
+    color: #979797;
   }
 
-  .problems p {
-    font-size: var(--fz-xxl);
-    font-family: var(--font-sans);
+  .outcome_p {
+    width: 492px;
+    height: 242px;
+    left: 519px;
+    top: 10816px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* or 125% */
+    font-feature-settings: 'cpsp' on;
+
+    color: #000000;
+    margin: 20px 0 0 0;
+
     @media (max-width: 480px) {
       min-width: 100vw;
       padding: 0 40px 0 0;
@@ -42,14 +56,20 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
   }
 
   .normal_text {
-    margin: 0 0 0px 40%;
-    padding: 15vh 0 0 10%;
-    color: black;
-    font-family: var(--font-sans);
-    font-size: var(--fz-md);
+    width: 485px;
+    height: 316px;
+    width: 485px;
+    font-family: 'Calibre';
+    font-style: normal;
     font-weight: 400;
-    max-width: 50%;
+    font-size: 15px;
+    line-height: 20px;
 
+    /* or 133% */
+    font-feature-settings: 'cpsp' on;
+
+    color: #000000;
+    margin: 80px 0 0 376px;
     @media (max-width: 480px) {
       margin: 0 0 0 0;
       padding: 0vh 5% 0 5%;
@@ -57,17 +77,12 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     }
   }
 
-  .normal_text h1 {
-    margin-top: 2rem;
-    font-size: var(--fz-md);
-    margin-bottom: 0.5rem;
-    color: black;
-    font-weight: 900;
-    font-family: var(--font-sans);
-    @media (max-width: 480px) {
-
-    }
+  b {
+    font-weight: 600;
+    margin: 30px 0 0 0;
+    display: block;
   }
+
 `;
 
 const Moxie_Challenges_Outcome = () => {
@@ -78,29 +93,24 @@ const Moxie_Challenges_Outcome = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <div className="problems">
-                <h1>OUTCOME</h1>
-                <p>This was a very fun and exciting project for me to work on as it provided real value,
+  const one = <div className="outcome">
+                <div className='outcome_h1' >OUTCOME</div>
+                <div className='outcome_p'>This was a very fun and exciting project for me to work on as it provided real value,
                   involved a ton of research and not to mention one of my first hands on projects. However
                   shifting priorities and changing roadmaps have delayed the launch of this feature.
                   Still I learned some important key takeaways from this project related to product and
                   business processes.
-                </p>
+                </div>
               </div>;
   const two = <div className="normal_text">
-                This was a very fun and exciting project for me to work on as it provided real value,
-                involved a ton of research and not to mention one of my first hands on projects.
-                However shifting priorities and changing roadmaps have delayed the launch of this feature.
-                Still I learned some important key takeaways from this project related to product and
-                business processes.
-                <h1>1. How to adapt to changing requirements</h1>
+                <b>1. How to adapt to changing requirements</b>
                 New timelines, resourcing issues, reprioritization meant the scope of
                 the project was constantly changing.
                 I had to adapt to these changes & still deliver the best designs within tight deadlines.
-                <h1>2. Don’t overpromise and underdeliver</h1>
+                <b>2. Don’t overpromise and underdeliver</b>
                 I learned how to define a true MVP vs something that is just super packed up with
                 excess features which makes it cluttered and therefore not shippable.
-                <h1>3. Choosing what we skip</h1>
+                <b>3. Choosing what we skip</b>
                 There were so many more features that we could tackle. However every single one of
                 them would increase the scope of the project and make it heavy. For example- we
                 initially did think of using filters on the Challenges page for navigating through
