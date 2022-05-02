@@ -11,17 +11,24 @@ import styles from './Moxie_Challenges_Background.module.css';
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
-  align-items: flex-centre;
+  align-items: flex-start;
   min-height: 100vh;
   color: white;
-  font-family: var(--font-sans);
-  text-align: centre;
 
   .find_challenges_title{
-    margin: 0 0 30px 4px;
-    font-size: var(--fz-heading);
-    font-weight: bold;
+    width: 475px;
+    height: 44px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 163.4%;
+
+    /* or 59px */
     text-align: center;
+    margin: 35px 0 0 263px;
+    color: #FFFFFF;
     @media (max-width: 480px) {
       margin: -20% 5% 0 5%;
       text-align: center;
@@ -29,8 +36,22 @@ const StyledHeroSection = styled.section`
   }
 
   .find_challeneges_body {
-      padding: 30px 15%;
-      text-align: center;
+    width: 687px;
+    height: 104px;
+    
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    
+    /* or 133% */
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    
+    color: #FFFFFF;
+    margin: 56px 0 0 157px;    
+    text-align: center;
       @media (max-width: 480px) {
         margin: 5% 5% 0 5%;
         padding: 0 0 0 0;
@@ -38,7 +59,9 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg{
-    padding: 8vh 5%;
+    min-width: 995px;
+    min-height: 644px;
+    margin: 80px 0 50px 2.5px;
     @media (max-width: 480px) {
       margin: 10% 0% 0 5%;
       padding: 0 10% 0 0;
@@ -61,6 +84,7 @@ const Moxie_Challenges_Find_Challenges = () => {
   const one = <div className="find_challenges_title">One Place to Find All Challenges!</div>;
   const two = <div className="find_challeneges_body">We had a singular message to drive home: Moxie a One Stop Shop for all kinds of
       workouts and is a community in itself where you can go do group challenges of your liking.
+      <br></br>
       This added marketplace for Challenges exclusive feature helped us to scale Challenges and place
       the primary focus on discoverability and group features. We placed the top nav bar as the primary
       focus area and added several other carousels curated for the attendees according to their likings.
