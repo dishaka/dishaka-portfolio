@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { useStaticQuery, graphql } from 'gatsby';
 import MainImg from '../../../src/images/main_img.png';
+import MainGIF from '../../../src/images/Moxie_challenges.gif';
 import BackgroundOne from './background_one.png';
 import styles from './Moxie_Challenges_Background.module.css';
 
@@ -11,83 +12,126 @@ import styles from './Moxie_Challenges_Background.module.css';
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
-  align-items: flex-centre;
-  min-height: 100vh;
-  font-family: var(--font-sans);
+  align-items: flex-start;
 
   .Title_MoxieChallenges {
     display: flex;
+    width: 1000px;
     flex-direction: column;
-    align-items: flex-center;
-    font-size: clamp(var(--fz-md), 5vw, var(--fz-md));
-    margin: 20px;
-    margin-top: 70px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin: 60px 0 0 0;
     @media (max-width: 480px) {
       margin: 90px 0 45px 0;
     }
   }
 
-  .Title_MoxieChallenges h1 {
-    color: white;
+  .Title_MoxieChallenges_h1 {
+    width: 158px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 163.4%;
+
+    /* identical to box height, or 25px */
     text-align: center;
+
+    color: #C4C4C4;
+
+
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
   }
 
-  .Title_MoxieChallenges h2 {
-    color: white;
+  .Title_MoxieChallenges_h2 {
+    width: 687px;
+    height: 44px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 163.4%;
+
+    /* or 65px */
     text-align: center;
-    font-family: var(--font-sans);
-    font-size: var(--fz-heading);
-    margin: 7px 0 0 0;
+
+    color: #FFFFFF;
+
+
   }
 
   .mainimg{
-    padding: 0 5%;
+    min-width: 997px;
+    min-height: 887px;                                        
+    max-width: 998px;
+    max-height: 888px;
+    margin: 76px 0 0 1px;
+    border-radius: 20px;
   }
 
   .text_holder{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 50px;
-    color: white;
+    
     @media (max-width: 480px) {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 50px;
+      color: white;
       flex-wrap: wrap;
       margin: -20px -110px 0 -60px;
     }
   }
 
   .left_text {
-    font-size: var(--fz-xl);
-    margin-top: 125px;
-    margin-left: 2rem;
-    padding-right: 80px;
-  }
+    width: 571px;
+    height: 180px;
 
-  .left_text h3{
-    color: white;
-    font-weight: lighter;
-    font-family: var(--font-sans);
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* or 125% */
+    font-feature-settings: 'cpsp' on;
+    margin: 153px 0 0 24px;
+    color: #FFFFFF;
   }
 
   .right_text {
-    font-family: var(--font-sans);
-    font-size: var(--fz-xs);
-    font-weight: lighter;
-    margin-top: 150px;
-    margin-left: 2rem;
-    padding-right: 80px;
-    min-width: 37%;
-    @media (max-width: 480px) {
-      margin-top: 100px;
-    }
+    width: 261px;
+    height: 206px;
+    margin: -213px 0 0 714px;
+  }
+
+  .header {
+    width: 163px;
+    height: 25px;
+
+    font-family: var(--font-mono);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 163.4%;
+
+    /* identical to box height, or 25px */
+    margin: 22px 0 0 0;
+    color: #C4C4C4;
   }
 
   .content {
-    font-size: var(--fz-xs);
-    font-family: var(--font-sans);
-    margin-top: 10px;
+    width: 261px;
+    height: 53px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    /* or 127% */
+    font-feature-settings: 'cpsp' on;
+    margin: 14px 0 0 0;
+    color: #FFFFFF;
   }
 `;
 
@@ -102,28 +146,25 @@ const Moxie_Challenges = () => {
   }, []);
 
   const one = <div className="Title_MoxieChallenges">
-                <h1>CASE STUDY - 2022</h1>
-                <h2>MOXIE Challenges</h2>
+              <div className='Title_MoxieChallenges_h1'>CASE STUDY - 2022</div>
+              <div className='Title_MoxieChallenges_h2'>MOXIE Challenges</div>
               </div>;
-  const two = <img className="mainimg" src={MainImg} alt="Main img"></img>;
+  const two = <img className="mainimg" src={MainGIF} alt="Main img"></img>;
   const three = <div className="text_holder">
                   <div className="left_text">
-                    <h3>
                     Providing and open and efficient marketplace is the key use case for visibility of
                     instructors and their fitness challenges, but this functionality was limited at Moxie.
                     <br></br>
                     How could we increase engagement and promote workout in form of challenges? I lead
                     this feature addition to extend our feature set and allow coaches to have more 
                     visibility.
-                    </h3>
                   </div>
                   <div className="right_text">
-                    <div>MY ROLE</div>
+                    <div className='header'>MY ROLE</div>
                     <div className="content">Responsible for design discovery and ideatation, interaction design and prototype
                       for web and apps
                     </div>
-                    <br></br>
-                    <div>TEAM</div>
+                    <div className='header'>TEAM</div>
                     <div className="content">Prineel Bandelu, Director Product Design
                          <br></br>
                          Ishwarya Srinivas, Director of Product
