@@ -46,7 +46,7 @@ const StyledContent = styled.div`
 `;
 
 const Layout = ({ children, location }) => {
-  const isHome = location.pathname === '/';
+  const isHome = location.pathname === '/' || location.pathname === '/featured_internal/moxie_challenges' || location.pathname === '/featured_internal/pop_dancing' || location.pathname === '/featured_internal/soundcloud';
   const [isLoading, setIsLoading] = useState(isHome);
 
   useEffect(() => {
