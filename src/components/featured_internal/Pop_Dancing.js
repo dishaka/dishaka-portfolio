@@ -143,7 +143,7 @@ const StyledHeroSection = styled.section`
     font-family: var(--font-mono);
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
 
     /* or 21px */
@@ -159,7 +159,7 @@ const StyledHeroSection = styled.section`
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
     margin-top: 10px;
     margin-bottom: 22px;
