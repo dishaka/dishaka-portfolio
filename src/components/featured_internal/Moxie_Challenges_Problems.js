@@ -1,40 +1,53 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
+import { srConfig } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 
 const Styled_Moxie_Challenges_Problems_Section = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
-  align-items: flex-centre;
-  min-height: 100vh;
-  font-family: var(--font-sans);
+  align-items: flex-start;
 
   .problems {
-    margin: 0 0 30px 15%;
-    color: black;
-    font-family: var(--font-sans);
-    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
-    font-weight: 400;
-    max-width: 50%;
-
+    width: 492px;
+    height: 198px;
+    margin: 40px 0 0 171px;
     @media (max-width: 480px) {
       margin: 0 0 75px 5%;
     }
   }
 
-  .problems h1 {
-    font-size: var(--fz-md);
-    margin: 0 0 16px 0px;
-    padding-right: 60px;
-    color: var(--light-slate);
-    font-family: var(--font-sans);
+  .problems_h1 {
+    width: 70px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 163.4%;
+
+    /* identical to box height, or 25px */
+    letter-spacing: 0.01em;
+
+    color: #979797;
+    font-family: var(--font-mono);
   }
 
-  .problems p {
-    font-size: var(--fz-xxl);
-    font-family: var(--font-sans);
+  .problems_p {
+    width: 492px;
+    height: 153px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* or 125% */
+    font-feature-settings: 'cpsp' on;
+    margin: 20px 0 0 0;
+    color: #000000;
     @media (max-width: 480px) {
       min-width: 100vw;
       padding: 0 40px 0 0;
@@ -42,14 +55,19 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
   }
 
   .normal_text {
-    margin: 0 0 0px 40%;
-    padding: 15vh 0 0 10%;
-    color: black;
-    font-family: var(--font-sans);
-    font-size: var(--fz-md);
+    width: 485px;
+    height: 62px;
+    margin: 78px 0 0 392px;
+    font-family: 'Calibre';
+    font-style: normal;
     font-weight: 400;
-    max-width: 50%;
+    font-size: 15px;
+    line-height: 20px;
 
+    /* or 133% */
+    font-feature-settings: 'cpsp' on;
+
+    color: #000000;
     @media (max-width: 480px) {
       margin: 0 0 0 0;
       padding: 0vh 5% 0 5%;
@@ -57,15 +75,28 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     }
   }
 
-  .normal_text h1 {
-    margin-top: 2rem;
-    font-size: var(--fz-md);
-    margin-bottom: 0.5rem;
-    color: black;
-    font-weight: 900;
-    font-family: var(--font-sans);
+  .normal_text_h1 {
+    width: 485px;
+    height: 256px;
+    margin: 46px 0 40px 392px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* or 133% */
+    font-feature-settings: 'cpsp' on;
+
+    color: #000000;
     @media (max-width: 480px) {
 
+    }
+
+    b {
+      font-weight: 600;
+      margin: 30px 0 0 0;
+      display: block;
     }
   }
 `;
@@ -79,30 +110,31 @@ const Moxie_Challenges_Problems = () => {
   }, []);
 
   const one = <div className="problems">
-                <h1>PROBLEM</h1>
-                <p>Meaningful engagement at Moxie was very low despite of having group challenges -
+                <div className="problems_h1">PROBLEM</div>
+                <div className='problems_p'>Meaningful engagement at Moxie was very low despite of having group challenges -
                     users were just taking up stand alone workouts and leaving the platform.
                     How could we enhance the marketplace to make it more dynamic and visible?
-                </p>
+                </div>
               </div>;
   const two = <div className="normal_text">
                 We wanted to understand why the engagement was so low with Moxie and in particular,
                 Challenges. Through conversions, data and research, it became clear that we had an
-                untapped potential to scale up user behavior.
-                <h1>1. Individual classes only.</h1>
-                Moxie struggled with attendees only taking stand alone classes.
-                Attendees would take one class and not feel much connect.
-                <h1>2. Low visibility.</h1>
-                Challenges were hidden away under the profile of an instructor. Unless an attendee went
-                ahead and tried to look, it could not be found. As well as instructors tried to create
-                classes by hacking the class name as a work around.
-                <h1>3. Real time activity.</h1>
-                Attendees wanted to know all the challenges they could possibly opt for at a single look,
-                and not go hunting for them.
+                untapped potential to scale up user behavior. </div>
+  const three = <div className='normal_text_h1'>
+                  <b>1. Individual classes only.</b>
+                  Moxie struggled with attendees only taking stand alone classes.
+                  Attendees would take one class and not feel much connect.
+                  <b>2. Low visibility.</b>
+                  Challenges were hidden away under the profile of an instructor. Unless an attendee went
+                  ahead and tried to look, it could not be found. As well as instructors tried to create
+                  classes by hacking the class name as a work around.
+                  <b>3. Real time activity.</b>
+                  Attendees wanted to know all the challenges they could possibly opt for at a single look,
+                  and not go hunting for them.
               </div>;
 
 
-  const items = [one, two];
+  const items = [one, two, three];
 
   const whiteBackGround = {
     background: 'white',
