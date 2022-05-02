@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { useStaticQuery, graphql } from 'gatsby';
 import MainImg from '../../../src/images/main_img.png';
-import MainGIF from '../../../src/images/Moxie_challenges.gif';
 import BackgroundOne from './background_one.png';
 import styles from './Moxie_Challenges_Background.module.css';
 
@@ -56,7 +55,7 @@ const StyledHeroSection = styled.section`
     text-align: center;
 
     color: #FFFFFF;
-
+    margin: 16px 0 0 0;
 
   }
 
@@ -66,7 +65,6 @@ const StyledHeroSection = styled.section`
     max-width: 998px;
     max-height: 888px;
     margin: 76px 0 0 1px;
-    border-radius: 20px;
   }
 
   .text_holder{
@@ -149,7 +147,7 @@ const Moxie_Challenges = () => {
               <div className='Title_MoxieChallenges_h1'>CASE STUDY - 2022</div>
               <div className='Title_MoxieChallenges_h2'>MOXIE Challenges</div>
               </div>;
-  const two = <img className="mainimg" src={MainGIF} alt="Main img"></img>;
+  const two = <img className="mainimg" src={MainImg} alt="Main img"></img>;
   const three = <div className="text_holder">
                   <div className="left_text">
                     Providing and open and efficient marketplace is the key use case for visibility of
