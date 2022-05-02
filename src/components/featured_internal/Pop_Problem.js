@@ -98,7 +98,7 @@ const StyledHeroSection = styled.section`
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
 
     /* or 129% */
