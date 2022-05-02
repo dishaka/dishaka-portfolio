@@ -20,8 +20,66 @@ const StyledHeroSection = styled.section`
   color: black;
 
   .title_Hero {
-    font-size: var(--fz-heading);
-    margin: 0 0 30px 0px;
+    width: 261px;
+    height: 49px;
+    left: 365px;
+    top: 5280px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 163.4%;
+
+    /* or 59px */
+
+    color: #000000;
+    margin: 80px 0 28px 1px;
+
+    @media (max-width: 480px) {
+      margin: 0 0 20px 2px;
+    }
+  }
+
+  .title_Hero1 {
+    width: 218.15px;
+    height: 49px;
+    left: 365px;
+    top: 5280px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 163.4%;
+
+    /* or 59px */
+
+    color: #000000;
+    margin: 0px 0 28px 0px;
+
+    @media (max-width: 480px) {
+      margin: 0 0 20px 2px;
+    }
+  }
+
+  .title_Hero_final {
+    width: 417px;
+    height: 91px;
+    left: 365px;
+    top: 5280px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 163.4%;
+
+    /* or 59px */
+
+    color: #000000;
+    margin: 0px 0 28px 1px;
+
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
     }
@@ -29,7 +87,6 @@ const StyledHeroSection = styled.section`
 
   .container_text_img_left {
       display: flex;
-      margin: 0 0 -3% 0;
       @media (max-width: 480px) {
         flex-wrap: wrap;
         flex-direction: column;
@@ -38,7 +95,7 @@ const StyledHeroSection = styled.section`
 
   .container_text_img_right {
     display: flex;
-    margin: 0 0 -3% 0;
+    margin: 180px 0 0 0;
     @media (max-width: 480px) {
       flex-wrap: wrap;
       flex-direction: column-reverse;
@@ -56,11 +113,18 @@ const StyledHeroSection = styled.section`
   }
 
   .container_text_1 {
-    max-width: 40%;
-    font-size: var(--fz-xl);
-    margin-bottom: 15%;
-    padding: 0 40px 0 30px;
-    max-height: 400px;
+    width: 402px;
+    height: 377px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* or 133% */
+
+    color: #000000;
+    margin: 28px 0 0 1px;
     @media (max-width: 480px) {
       max-width: 100vw;
       padding: 0px 5% 0px 5%;
@@ -69,11 +133,17 @@ const StyledHeroSection = styled.section`
 }
 
   .container_text_3 {
-    max-width: 40%;
-    font-size: var(--fz-xl);
-    margin-bottom: 15%;
-    margin-top: -40px;
-    padding: 55px 40px 20px 30px;
+    width: 410px;
+    height: 308px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* or 133% */
+    margin: 81px 0 0 32px;
+    color: #000000;
     @media (max-width: 480px) {
       max-width: 100vw;
       padding: 0px 5% 0px 5%;
@@ -82,11 +152,18 @@ const StyledHeroSection = styled.section`
 }
 
   .container_text_4 {
-    max-width: 40%;
-    font-size: var(--fz-xl);
-    margin-bottom: 15%;
-    margin-top: -25px;
-    padding: 75px 40px 0px 30px;
+    width: 406px;
+    height: 243px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* or 133% */
+    margin: 180px 0 0 1px;
+    color: #000000;
     @media (max-width: 480px) {
       max-width: 100vw;
       margin-top: 50px;
@@ -94,11 +171,19 @@ const StyledHeroSection = styled.section`
 }
 
 .container_text_5 {
-  max-width: 40%;
-  font-size: var(--fz-xl);
-  margin-bottom: 15%;
-  margin-top: -25px;
-  padding: 75px 40px 0px 30px;
+  width: 406px;
+  height: 255px;
+
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* or 133% */
+
+  color: #000000;
+  margin: -7px 0 0 32px;
   @media (max-width: 480px) {
     max-width: 100vw;
     margin-top: 50px;
@@ -106,10 +191,18 @@ const StyledHeroSection = styled.section`
 }
 
   .container_text_final {
-    max-width: 40%;
-    font-size: var(--fz-xl);
-    margin-bottom: 15%;
-    padding: 115px 40px 0 30px;
+    width: 417px;
+    height: 298px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* or 133% */
+
+    color: #000000;
+    margin: 300px 0 0 1px;
     @media (max-width: 480px) {
       max-width: 100vw;
     }
@@ -131,11 +224,9 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg_1 {
-    min-height: 369px;
-    min-width: 561px;
-    max-height: 370px;
-    max-width: 562px;
-    padding 25px 0 0 0;
+    max-width: 562.44px;
+    max-height: 346px;
+    margin: 87px 0 0 32px;
     @media (max-width: 480px) {
       max-width: 95%;
       min-width: 49%;
@@ -146,11 +237,9 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg_2 {
-    min-height: 459px;
-    min-width: 544px;
-    max-height: 460px;
-    max-width: 545px;
-    padding 25px 0 0 0;
+    max-width: 556px;
+    max-height: 469.28px;
+    margin: 0 0px 0 1px;
     @media (max-width: 480px) {
       max-width: 95%;
       min-width: 49%;
@@ -161,11 +250,9 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg_3 {
-    min-height: 430px;
-    min-width: 550px;
-    max-height: 431px;
-    max-width: 551px;
-    padding 25px 0 0 0;
+    max-width: 560px;
+    max-height: 438.04px;
+    margin: 180px 0 0 32px;
     @media (max-width: 480px) {
       max-width: 95%;
       min-width: 49%;
@@ -176,11 +263,9 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg_4 {
-    min-height: 430px;
-    min-width: 562px;
-    max-height: 431px;
-    max-width: 563px;
-    padding 25px 0 0 0;
+    max-width: 560px;
+    max-height: 428.7px;
+    width: 180px 0 0 1px;
     @media (max-width: 480px) {
       max-width: 95%;
       min-width: 49%;
@@ -191,11 +276,9 @@ const StyledHeroSection = styled.section`
   }
 
   .mainimg_5 {
-    min-height: 563px;
-    min-width: 547px;
-    max-height: 564px;
-    max-width: 548px;
-    padding 25px 0 0 0;
+    max-width: 550px;
+    max-height: 566.06px;
+    margin: 180px 0 80px 30px; 
     @media (max-width: 480px) {
       max-width: 95%;
       min-width: 49%;
@@ -211,8 +294,13 @@ const StyledHeroSection = styled.section`
   }
 
   ul {
-      margin: 0 0 0 0;
-      font-family: var(--font-sans);
+      margin: 0 0 0 20px;
+      padding: 0
+  }
+
+  li {
+    margin: 5px 0 0 0;
+    padding: 0;
   }
 
 `;
@@ -235,8 +323,6 @@ const Moxie_Challenges_Hero_Carousel = () => {
                     to the attendees - the best challenges which were in-house. This area would gain
                     the most traction as along with giving a platform to all the instructors was
                     key- first important factor was to promote the in-house instructors too.
-                    <br></br>
-                    <br></br>
                     <b>Solutions:</b>
                     <ul>
                         <li>Dynamic, top three challenges, admin curated, refreshed when needed</li>
@@ -244,12 +330,13 @@ const Moxie_Challenges_Hero_Carousel = () => {
                         to the challenge details page.</li>
                     </ul>
                 </div>
-                <img className="mainimg_1" style={{marginTop: '67px'}} src={HeroOne} alt="Main img"></img>
+                {/* style={{marginTop: '67px'}} */}
+                <img className="mainimg_1" src={HeroOne} alt="Main img"></img>
             </div>;
-  const three = <div className="container_text_img_right" style={{marginTop: '15%'}}>
+  const three = <div className="container_text_img_right">
                     <img className="mainimg_2" src={HeroTwo} alt="Main img"></img>
                     <div className="container_text_3">
-                        <div className="title_Hero">Jump Back In!</div>
+                        <div className="title_Hero1">Jump Back In!</div>
                         The aim for this section is to help the attendees keep track of their on-going
                         challenges. A simple addition that resulted in streamlined viewing and discovery.
                         Previously, users had to go to their own profile to see their current workouts
@@ -299,7 +386,7 @@ const Moxie_Challenges_Hero_Carousel = () => {
 
 const six = <div className="container_text_img_left">
                 <div className="container_text_final">
-                    <div className="title_Hero">Recently Added + Individual Types</div>
+                    <div className="title_Hero_final">Recently Added + Individual Types</div>
                         To help attendees be up to date with the recently added challenges on the
                         platform; as well as find challenges on the basis of their favourite
                         workout types. These carousels help our vision of discoverability on
