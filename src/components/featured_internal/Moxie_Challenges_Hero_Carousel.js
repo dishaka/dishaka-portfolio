@@ -73,7 +73,7 @@ const StyledHeroSection = styled.section`
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 163.4%;
+    line-height: 46.94px;
 
     /* or 59px */
 
@@ -319,10 +319,12 @@ const Moxie_Challenges_Hero_Carousel = () => {
                     <div className="title_Hero">Hero Carousel</div>
                     The central feature of this project was to allow attendees a single page where
                     they could view all the challenges available on the platform. 
-                    The hero carousel is a place where we could push admin curated coach challenges
+                    The Hero Carousel is a place where we could push admin curated coach challenges
                     to the attendees - the best challenges which were in-house. This area would gain
                     the most traction as along with giving a platform to all the instructors was
                     key- first important factor was to promote the in-house instructors too.
+                    <br></br>
+                    <br></br>
                     <b>Solutions:</b>
                     <ul>
                         <li>Dynamic, top three challenges, admin curated, refreshed when needed</li>
