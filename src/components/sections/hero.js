@@ -52,10 +52,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I am a creative problem solver.</h3>;
   const four = (
     <p>
-      I'm a Designer based in Mumbai, India, specializing in combining creativity and analytical
-      thinking to innovate and create simple, impactful solutions.{'\n'}
-      My passions lie in exploring the intersection of state-of-the-art-technologies with UX Design
-      for enhancing human-computer interaction.
+      I'm a Designer 🙋🏻‍♀️ based in Mumbai, India 🇮🇳, specializing in combining creativity and analytical
+      thinking to innovate and create simple, impactful solutions 🚀
     </p>
   );
   const five = (
