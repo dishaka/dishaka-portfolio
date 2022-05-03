@@ -156,7 +156,7 @@ const About = () => {
             </p>
 
             <p>
-              I am passionate about sustainability, and I love exploring how technology, social diversity and inclusivity can solve sustainability 
+              I am passionate about exploring how technology, social diversity and inclusivity can solve sustainability 
               challenges.
             </p>
             <p>
