@@ -1,43 +1,68 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { srConfig } from '@config';
+import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import pop_img2 from '../../images/pop_img2.png'
 
-const Styled_Moxie_Challenges_Problems_Section = styled.section`
+const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
 
-  .problems {
-    width: 492px;
-    height: 198px;
-    margin: 40px 0 0 171px;
+  .understanding {
+    width: 116px;
+    height: 161px;
+    margin: 20px 0 0 171px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
     @media (max-width: 480px) {
-      margin: 0 0 75px 5%;
+      width: 332px;
+      height: 142px;
+      margin: 7px 0 0 22px;
     }
   }
 
-  .problems_h1 {
-    width: 70px;
-    height: 25px;
+  .undersanding_heading {
+    width: 116px;
+    height: 23px;
 
+    font-family: var(--font-mono);
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 163.4%;
 
-    /* identical to box height, or 25px */
+    /* identical to box height, or 23px */
     letter-spacing: 0.01em;
 
     color: #979797;
-    font-family: var(--font-mono);
+
+    @media (max-width: 480px) {
+      width: 116px;
+      height: 23px;
+      
+      font-family: var(--font-mono);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 163.4%;
+      
+      /* identical to box height, or 23px */
+      letter-spacing: 0.01em;
+      
+      color: #979797;
+    }
+
+
   }
 
-  .problems_p {
+  .understanding_text {
     width: 492px;
-    height: 153px;
-
+    height: 116px;
+    margin-top: 22px;
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
@@ -46,62 +71,97 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
 
     /* or 125% */
     font-feature-settings: 'cpsp' on;
-    margin: 20px 0 0 0;
+
     color: #000000;
+
     @media (max-width: 480px) {
-      min-width: 100vw;
-      padding: 0 40px 0 0;
+      width: 332px;
+    height: 105px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    /* or 130% */
+    font-feature-settings: 'cpsp' on;
+
+    color: #000000;
     }
   }
 
-  .normal_text {
+  .content {
     width: 485px;
-    height: 62px;
+    height: 343px;
+
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* or 129% */
+    font-feature-settings: 'cpsp' on;
+
+    color: #000000;
     margin: 78px 0 0 392px;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
 
-    /* or 133% */
-    font-feature-settings: 'cpsp' on;
-
-    color: #000000;
     @media (max-width: 480px) {
-      margin: 0 0 0 0;
-      padding: 0vh 5% 0 5%;
-      min-width: 100vw;
+      width: 302px;
+      height: 453px;
+
+      font-family: 'Calibre';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+
+      /* or 129% */
+      font-feature-settings: 'cpsp' on;
+      color: #000000;
+      margin: 66px 0 0 52px;
     }
   }
 
-  .normal_text_h1 {
-    width: 485px;
-    height: 256px;
-    margin: 46px 0 40px 392px;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
+  b {
+    font-weight: 600;
+  }
 
-    /* or 133% */
-    font-feature-settings: 'cpsp' on;
-
-    color: #000000;
+  .mainimg {
+    max-width: 970.83px;
+    max-height: 494.33px;
+    margin: 133px 0 0px 15.5px;
+    padding: 0 0 0 0;
     @media (max-width: 480px) {
-
+      max-width: 332px;
+      max-height: 168px;
+      margin: 43px 0 7px 22px;
     }
+  }
 
-    b {
-      font-weight: 600;
-      margin: 30px 0 0 0;
-      display: block;
-    }
+  ul {
+      margin: 0px 0 14px 20px;
+      padding: 0 0 0 0;
+      @media (max-width: 480px) {
+        margin: 0 0 10px 20px;
+      }
+  }
+
+  li {
+      margin: 0;
+      padding: 0;
+  }
+
+
+  h3 {
+    margin-top: 10px;
+    color: var(--slate);
+    line-height: 0.9;
   }
 `;
 
-const Moxie_Challenges_Problems = () => {
+const Pop_Problem = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -109,30 +169,39 @@ const Moxie_Challenges_Problems = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <div className="problems">
-                <div className="problems_h1">PROBLEM</div>
-                <div className='problems_p'>Meaningful engagement at Moxie was very low despite of having group challenges -
-                    users were just taking up stand alone workouts and leaving the platform.
-                    How could we enhance the marketplace to make it more dynamic and visible?
+  const one = <div className='understanding'>
+                <div className='undersanding_heading'>UNDERSTANDING</div>
+                <div className='understanding_text'>Defining user personality. <br></br>
+                        Understanding what user’s motivations are and getting to know them better is
+                        the best place to start!
                 </div>
-              </div>;
-  const two = <div className="normal_text">
-                We wanted to understand why the engagement was so low with Moxie and in particular,
-                Challenges. Through conversions, data and research, it became clear that we had an
-                untapped potential to scale up user behavior. </div>
-  const three = <div className='normal_text_h1'>
-                  <b>1. Individual classes only.</b>
-                  Moxie struggled with attendees only taking stand alone classes.
-                  Attendees would take one class and not feel much connect.
-                  <b>2. Low visibility.</b>
-                  Challenges were hidden away under the profile of an instructor. Unless an attendee went
-                  ahead and tried to look, it could not be found. As well as instructors tried to create
-                  classes by hacking the class name as a work around.
-                  <b>3. Real time activity.</b>
-                  Attendees wanted to know all the challenges they could possibly opt for at a single look,
-                  and not go hunting for them.
-              </div>;
-
+            </div>;
+  const two = <div className='content'>
+                <b>Key Demographic</b>
+                <ul>
+                    <li>People who want to learn dancing and develop it as a skill.</li>
+                    <li>From 16-32 years old</li>
+                    <li>Males and Females</li>
+                    <li>Stay in a nuclear family</li>
+                </ul>
+                <b>Motivations to learn dance online:</b>
+                <ul>
+                    <li>Friend’s or relative’s wedding coming up, need to learn for an occasion.</li>
+                    <li>Wanted to learn dance as a hobby, learning a skill and getting fit along with a buddy.</li>
+                </ul>
+                <b>Painpoints while learning:</b>
+                <ul>
+                    <li>Loose motivation as learning online can be monotonus.</li>
+                    <li>No streamlined courses</li>
+                    <li>Lack of trusted trainers.</li>
+                </ul>
+                <b>Social forces (external factors that influence decisions):</b>
+                <ul>
+                    <li>Ongoing pandemic making people take online courses more than ever, quick and easy way to learn a
+                        skill, kill boredom and stay in shape while having fun.</li>
+                </ul>
+  </div>;
+  const three = <img className="mainimg" src={pop_img2} alt="Main img"></img>;
 
   const items = [one, two, three];
 
@@ -141,9 +210,8 @@ const Moxie_Challenges_Problems = () => {
   }
 
   return (
-      <>
-      <div style={whiteBackGround}>
-    <Styled_Moxie_Challenges_Problems_Section>
+    <div style={whiteBackGround}>
+    <StyledHeroSection>
       <TransitionGroup component={null}>
         {isMounted &&
           items.map((item, i) => (
@@ -152,10 +220,9 @@ const Moxie_Challenges_Problems = () => {
             </CSSTransition>
           ))}
       </TransitionGroup>
-    </Styled_Moxie_Challenges_Problems_Section>
+    </StyledHeroSection>
     </div>
-    </>
   );
 };
 
-export default Moxie_Challenges_Problems;
+export default Pop_Problem;
