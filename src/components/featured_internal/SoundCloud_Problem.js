@@ -11,28 +11,28 @@ const StyledHeroSection = styled.section`
   align-items: flex-start;
 
   .understanding {
-    width: 116px;
-    height: 161px;
-    margin: 20px 0 0 171px;
+    width: 492px;
+    height: 198px;
+    margin: 13px 0 0 171px;
     padding: 0;
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
     @media (max-width: 480px) {
       width: 332px;
-      height: 142px;
-      margin: 7px 0 0 22px;
+      height: 191px;
+      margin: 8px 0 0 22px;
     }
   }
 
-  .undersanding_heading {
-    width: 116px;
-    height: 23px;
+  .understanding_heading {
+    width: 77px;
+    height: 25px;
 
     font-family: var(--font-mono);
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 163.4%;
 
     /* identical to box height, or 23px */
@@ -48,7 +48,7 @@ const StyledHeroSection = styled.section`
       font-style: normal;
       font-weight: 600;
       font-size: 14px;
-      line-height: 163.4%;
+      line-height: 22.88px;
       
       /* identical to box height, or 23px */
       letter-spacing: 0.01em;
@@ -61,8 +61,8 @@ const StyledHeroSection = styled.section`
 
   .understanding_text {
     width: 492px;
-    height: 116px;
-    margin-top: 22px;
+    height: 153px;
+    margin-top: 20px;
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 400;
@@ -76,7 +76,7 @@ const StyledHeroSection = styled.section`
 
     @media (max-width: 480px) {
       width: 332px;
-    height: 105px;
+    height: 154px;
 
     font-family: 'Calibre';
     font-style: normal;
@@ -93,7 +93,7 @@ const StyledHeroSection = styled.section`
 
   .content {
     width: 485px;
-    height: 343px;
+    height: 221px;
 
     font-family: 'Calibre';
     font-style: normal;
@@ -105,39 +105,27 @@ const StyledHeroSection = styled.section`
     font-feature-settings: 'cpsp' on;
 
     color: #000000;
-    margin: 78px 0 0 392px;
+    margin: 78px 0 19px 392px;
 
     @media (max-width: 480px) {
       width: 302px;
-      height: 453px;
+      height: 279px;
 
       font-family: 'Calibre';
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 20px;
 
       /* or 129% */
       font-feature-settings: 'cpsp' on;
       color: #000000;
-      margin: 66px 0 0 52px;
+      margin: 66px 0 8px 52px;
     }
   }
 
   b {
     font-weight: 600;
-  }
-
-  .mainimg {
-    max-width: 970.83px;
-    max-height: 494.33px;
-    margin: 133px 0 0px 15.5px;
-    padding: 0 0 0 0;
-    @media (max-width: 480px) {
-      max-width: 332px;
-      max-height: 168px;
-      margin: 43px 0 7px 22px;
-    }
   }
 
   ul {
@@ -149,19 +137,13 @@ const StyledHeroSection = styled.section`
   }
 
   li {
-      margin: 0;
+      margin: 0 0 0 5px;
       padding: 0;
   }
 
-
-  h3 {
-    margin-top: 10px;
-    color: var(--slate);
-    line-height: 0.9;
-  }
 `;
 
-const Pop_Problem = () => {
+const SoundCloud_Problem = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -170,40 +152,25 @@ const Pop_Problem = () => {
   }, []);
 
   const one = <div className='understanding'>
-                <div className='undersanding_heading'>UNDERSTANDING</div>
-                <div className='understanding_text'>Defining user personality. <br></br>
-                        Understanding what user’s motivations are and getting to know them better is
-                        the best place to start!
+                <div className='understanding_heading'>RESEARCH</div>
+                <div className='understanding_text'>Understanding what user’s motivations are and
+                getting to know them better is the best place to start! Some key steps I took
+                included - gathering insights, common misconceptions and designing through user empathy
                 </div>
             </div>;
   const two = <div className='content'>
-                <b>Key Demographic</b>
+                I conducted interviews with users between the ages of 17-28. When I asked how they found new music, the common answer was - YouTube, Spotify and SoundCloud. Even though Spotify launched in 2019 in India, many users used Spotify with the help of APK’s, hence held a black user base when Spotify made a ‘Wild card entry’ and gained quick popularity.
+                <br></br><br></br>
+                <b>Understanding Problems:</b>
                 <ul>
-                    <li>People who want to learn dancing and develop it as a skill.</li>
-                    <li>From 16-32 years old</li>
-                    <li>Males and Females</li>
-                    <li>Stay in a nuclear family</li>
-                </ul>
-                <b>Motivations to learn dance online:</b>
-                <ul>
-                    <li>Friend’s or relative’s wedding coming up, need to learn for an occasion.</li>
-                    <li>Wanted to learn dance as a hobby, learning a skill and getting fit along with a buddy.</li>
-                </ul>
-                <b>Painpoints while learning:</b>
-                <ul>
-                    <li>Loose motivation as learning online can be monotonus.</li>
-                    <li>No streamlined courses</li>
-                    <li>Lack of trusted trainers.</li>
-                </ul>
-                <b>Social forces (external factors that influence decisions):</b>
-                <ul>
-                    <li>Ongoing pandemic making people take online courses more than ever, quick and easy way to learn a
-                        skill, kill boredom and stay in shape while having fun.</li>
+                    <li>Difficult to navigate</li>
+                    <li>Complicated, difficult to comprehend</li>
+                    <li>Can’t download, no offline tracks</li>
+                    <li>No Podcasts</li>
                 </ul>
   </div>;
-  const three = <img className="mainimg" src={pop_img2} alt="Main img"></img>;
 
-  const items = [one, two, three];
+  const items = [one, two];
 
   const whiteBackGround = {
     background: 'white',
@@ -225,4 +192,4 @@ const Pop_Problem = () => {
   );
 };
 
-export default Pop_Problem;
+export default SoundCloud_Problem;
