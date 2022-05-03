@@ -52,8 +52,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I am a creative problem solver.</h3>;
   const four = (
     <p>
-      I'm a Designer 🙋🏻‍♀️ based in Mumbai, India 🇮🇳, specializing in combining creativity and analytical
-      thinking to innovate and create simple, impactful solutions 🚀
+      I'm a Designer based in Mumbai, India, specializing in combining creativity and analytical
+      thinking to innovate and impactful solutions.
     </p>
   );
   const five = (
