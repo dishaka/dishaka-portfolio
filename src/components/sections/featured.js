@@ -316,7 +316,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={internal ? internal : external ? external : '#'} target="_blank">
+                  <a href={internal ? internal : external ? external : '#'}>
                     <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
                   </a>
                 </div>
