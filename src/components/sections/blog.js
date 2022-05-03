@@ -174,9 +174,9 @@ const Blog = () => {
 
   return (
     <StyledBlogSection id="blog">
-      <h2 ref={revealTitle}>Read my Blogs</h2>
+      <h2 ref={revealTitle}>Journal Archives</h2>
       <p>
-        Designing experiences and having fun while doing it!
+        I write about all that has helped me navigate my individual experience.
       </p>
 
       {/* <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
