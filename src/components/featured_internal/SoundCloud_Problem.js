@@ -164,7 +164,7 @@ const SoundCloud_Problem = () => {
                 <b>Understanding Problems:</b>
                 <ul>
                     <li>Difficult to navigate</li>
-                    <li>DComplicated, difficult to comprehend</li>
+                    <li>Complicated, difficult to comprehend</li>
                     <li>Can’t download, no offline tracks</li>
                     <li>No Podcasts</li>
                 </ul>
