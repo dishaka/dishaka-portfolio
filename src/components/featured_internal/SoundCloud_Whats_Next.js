@@ -68,7 +68,7 @@ const SoundCloud_Whats_Next = () => {
   }, []);
   
 
-  const one = <a className='content' href='moxie_challenges'>
+  const one = <a className='content' href='../moxie_challenges'>
                 <div className='next'>NEXT PROJECT >></div>
                 <div className='next_project'>Moxie Challenges</div>
                 </a>
