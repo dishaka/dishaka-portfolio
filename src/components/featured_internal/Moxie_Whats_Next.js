@@ -68,7 +68,7 @@ const Moxie_Whats_Next = () => {
   }, []);
   
 
-  const one = <a className='content' href='pop_dancing'>
+  const one = <a className='content' href='featured_internal/pop_dancing'>
                 <div className='next'>NEXT PROJECT >></div>
                 <div className='next_project'>POP Dancing</div>
                 </a>
