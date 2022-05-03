@@ -75,7 +75,7 @@ const StyledHeroSection = styled.section`
   .mainimg {
     max-width: 1000px;
     max-height: 337px;
-    margin: 60px 0 0 0;
+    margin: 60px 0 80px 0;
     @media (max-width: 480px) {
       display: none;
     }
@@ -243,11 +243,19 @@ const StyledHeroSection = styled.section`
       max-height: 276px;
       margin: 0 0 0 30px;
       @media (max-width: 480px) {
-        max-width: 304px;
-        max-height: 290px;
-        margin: 36px 0 0 35px;
+        max-width: 135.42px;
+        max-height: 188.77px;
+        margin: 0px 0 0 35px;
       }
   }
+
+  .gif_mob2 {
+    @media (max-width: 480px) {
+      max-width: 142.95px;
+      max-height: 290px;
+      margin: 36px 0 0 26px;
+    }
+}
 
   .descrip_title2 {
     width: 178.02px;
@@ -316,10 +324,18 @@ const StyledHeroSection = styled.section`
       max-height: 240px;
       margin: 0 0 0 39px;
       @media (max-width: 480px) {
-        max-width: 307.1px;
-        max-height: 290px;
-        margin: 36px 0 0 34px;
+        width: 131.32px;
+        height: 164.15px;
+        margin: 0px 0 0 34px;
       }
+  }
+
+  .gif_mob3 {
+    @media (max-width: 480px) {
+      width: 147.05px;
+      height: 290px;
+      margin: 36px 0 0 25px;
+    }
   }
 
   .descrip3 {
@@ -474,16 +490,24 @@ const StyledHeroSection = styled.section`
       max-height: 424px;
       margin: -40px 0 0 39px;
       @media (max-width: 480px) {
-          max-width: 315.59px;
-          max-height: 290px;
-          margin: 36px 0 0 30px;
+          width: 145.68px;
+          height: 299.86px;
+          margin: 30px 0 0 30px;
       }
+  }
+
+  .gif_mob5 {
+    @media (max-width: 480px) {
+      width: 150px;
+      height: 310px;
+      margin: 32px 0 0 22px;
+  }
   }
 
   .descrip5 {
       width: 448px;
       height: 224px;
-      margin: 60px 0 0 20px;
+      margin: 60px 0 0 30px;
   }
 
   .descrip_title5 {
@@ -677,20 +701,20 @@ const eight = <div className='groupie'>
     
     const ten = <div className='groupie_mob'>
             <div className='descrip_title'>Home Screen</div>
-            <img className="mainimg1" src={soundclod_img_mob5} alt="Main img"></img>
-            <img className="SC1" src={SC1} alt="Main img"></img>       
+            <img className="mainimg1" src={soundclod_img_mob5} alt="Main img"></img>       
                 <div className='descrip_text'>My modified version of Home Screen. This version includes More of What You Like, The Upload, SoundCloud Weekly. This is completely customised according to the user, hence giving an easy selection of songs similar to user’s tastes, giving a more personalised experience.
                     <ul>
                         <li>Reduced number of categories as too many create complexity (according to MIller’s Law)</li>
                         <li>Made it very customizable to users, music on the first page would create an impression of familiarity</li>
                     </ul>
             </div>
-            <img className="mainimg1_1" src={soundclod_img_mob6} alt="Main img"></img>  
+            <img className="mainimg1_1" src={SC1} alt="Main img"></img>  
             </div>;
 
     const eleven = <div className='groupie_mob'>
         <div className='descrip_title2'>Discover</div>
         <img className="mainimg2" src={soundcloud_img6} alt="Main img"></img>
+        <img className="gif_mob2" src={SC2} alt="Main img"></img>
         <div className='descrip_text2'>Looking for new music gets easier now, I have grouped and reduced the number of categories, making it easier for the user to grasp.
             <ul>
                 <li>I have removed the “Stream” function, as many users skipped it altogether as they did not understand it’s purpose. So I have combined it’s functions in “Discover” tab.</li>
@@ -703,6 +727,7 @@ const eight = <div className='groupie'>
 const twelve = <div className='groupie_mob'>
     <div className='descrip_title3'>Podcasts</div>
         <img className="mainimg3" src={soundcloud_img7} alt="Main img"></img>
+        <img className="gif_mob3" src={SC3} alt="Main img"></img>
             <div className='descrip_text3'>Including a dedicated section for podcasts in SoundCloud, makes it the perfect platform for free flow of audio based creativity. Taking into accordance user’s needs, I decided the four main categories needed.
                 <ul>
                     <li>enabling users to browse and discover new podcasting content</li>
@@ -722,12 +747,13 @@ const thirteen = <div className='groupie_mob'>
                 <li>users can easily see their profile, and view their playlists in a systematic manner</li>
             </ul>
         </div>
-        <img className="mainimg_mob3" src={soundclod_img_mob8} alt="Main img"></img>
+        <img className="mainimg_mob3" src={SC4} alt="Main img"></img>
         </div>;
 
 const fourteen = <div className='groupie_mob'>
         <div className='descrip_title5'>Settings</div>
         <img className="mainimg5" src={soundcloud_img9} alt="Main img"></img> 
+        <img className="gif_mob5" src={SC5} alt="Main img"></img> 
         <div className='descrip_text5'>And ofcourse, I am obsessed with dark mode everything, so I had to include it in my design. Plus a user I interviewed was unaware about this option on SoundCloud, as it is difficult to locate. So I making it easier here.
             <ul>
                 <li>enabling users to switch themes with ease</li>
