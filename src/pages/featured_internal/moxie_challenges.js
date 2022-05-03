@@ -9,7 +9,7 @@ import Moxie_Challenges_Hero_Carousel from '../../components/featured_internal/M
 import Moxie_Challenges_Exp_Ite from '../../components/featured_internal/Moxie_Challenges_Exp_Ite';
 import Moxie_Challenges_Cards_Design from '../../components/featured_internal/Moxie_Challenges_Cards_Design';
 import Moxie_Challenges_Outcome from '../../components/featured_internal/Moxie_Challenges_Outcome';
-import Whats_Next_Featured from '../../components/featured_internal/Whats_Next_Featured';
+import Moxie_Whats_Next from '../../components/featured_internal/Moxie_Whats_Next';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -26,7 +26,7 @@ const moxie_challenges = ({ location }) => (
       <Moxie_Challenges_Exp_Ite />
       <Moxie_Challenges_Cards_Design />
       <Moxie_Challenges_Outcome />
-      <Whats_Next_Featured />
+      <Moxie_Whats_Next />
 
   </Layout></div>
   );
