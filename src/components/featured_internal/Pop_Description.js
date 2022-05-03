@@ -15,7 +15,7 @@ const StyledHeroSection = styled.section`
   .text1 {
     width: 570px;
     height: 368px;
-    margin: 110px 0 0 39px;
+    margin: 60px 0 0 39px;
     @media (max-width: 480px) {
         width: 326px;
         height: 493px;
@@ -26,7 +26,7 @@ const StyledHeroSection = styled.section`
   .mainimg {
     max-width: 288px;
     max-height: 577.35px;
-    margin: -483px 0 0 648.78px;
+    margin: -428px 0 0 673px;
     @media (max-width: 480px) {
         max-width: 216px;
         max-height: 433.23px;
@@ -88,6 +88,30 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  .descrip2 {
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    width: 570px;
+    /* or 129% */
+    margin-top: 28px;
+    color: #FFFFFF;
+
+    @media (max-width: 480px) {
+        font-family: 'Calibre';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+
+        /* or 129% */
+
+        color: #FFFFFF;
+    }
+  }
+
   ul {
       margin: 16px 0 0 -13px;
       @media (max-width: 480px) {
@@ -121,7 +145,7 @@ const StyledHeroSection = styled.section`
   }
   
   .text2 {
-      margin: 190px 0 0 64px;
+      margin: 153px 0 0 64px;
     @media (max-width: 480px) {
         width: 328px;
         height: 375px;
@@ -172,7 +196,7 @@ const StyledHeroSection = styled.section`
   .mainimg3 {
     max-width: 461.29px;
     max-height: 452px;
-    margin: -379px 0 0 500px;
+    margin: -382px 0 0 500px;
     @media (max-width: 480px) {
         max-width: 321px;
         max-height: 313.7px;
@@ -233,7 +257,7 @@ const Pop_Description = () => {
                     <img className="mainimg2" src={pop_des2} alt="Main img"></img>;
                     <div className='text2'>
                     <div className='heading'>Instructor Profile</div>
-                    <div className='descrip'>
+                    <div className='descrip2'>
                     When asked, one of the main pain points of the user was that they don’t know 
                     if the instructors online is trustworthy and worth investing in, and what if
                     their approach to dance doesn’t suit them. Hence knowing the instructor better
