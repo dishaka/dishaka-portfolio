@@ -80,7 +80,7 @@ const StyledHeroSection = styled.section`
 
   .contentqa {
     width: 442px;
-    height: 216px;
+    height: 253px;
 
     font-family: 'Calibre';
     font-style: normal;
@@ -126,10 +126,11 @@ const StyledHeroSection = styled.section`
   ul {
       margin: -2px 0 0 19px;
       padding: 0 0 0 0;
+      line-height: 18px;
   }
 
   li {
-      margin: 0 0 -3px 0;
+      margin: 4px 0 -3px 0;
       padding: 0;
   }
 
