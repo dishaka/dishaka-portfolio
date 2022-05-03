@@ -9,6 +9,7 @@ import Pop_Empathy from '../../components/featured_internal/Pop_Empathy';
 import Pop_Journey from '../../components/featured_internal/Pop_Journey';
 import Pop_Description from '../../components/featured_internal/Pop_Description';
 import Pop_Outcome from '../../components/featured_internal/Pop_Outcome';
+import Pop_Whats_Next from '../../components/featured_internal/Pop_Whats_Next';
 
 
 const StyledMainContainer = styled.main`
@@ -25,6 +26,7 @@ const pop_dancing = ({ location }) => (
         <Pop_Journey />
         <Pop_Description />
         <Pop_Outcome />
+        <Pop_Whats_Next />
   </Layout></div>
   );
 
