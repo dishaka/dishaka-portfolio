@@ -6,6 +6,7 @@ import SoundCloud from '../../components/featured_internal/SoundCloud';
 import SoundCloud_Problem from '../../components/featured_internal/SoundCloud_Problem';
 import SoundCloud_Empathy from '../../components/featured_internal/SoundCloud_Empathy';
 import SoundCloud_Navigation from '../../components/featured_internal/SoundCloud_Navigation';
+import SoundCloud_Whats_Next from '../../components/featured_internal/SoundCloud_Whats_Next';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -18,6 +19,7 @@ const soundcloud = ({ location }) => (
         <SoundCloud_Problem />
         <SoundCloud_Empathy />
         <SoundCloud_Navigation />
+        <SoundCloud_Whats_Next />
   </Layout>
   </div>
   );
