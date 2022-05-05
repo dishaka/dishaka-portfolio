@@ -70,6 +70,10 @@ const StyledHeroSection = styled.section`
     font-feature-settings: 'cpsp' on;
     margin: -44px 0 0 482px;
     color: #FFFFFF;
+    @media (max-width: 480px) {
+      margin: 10px 0 30px 22px;
+      width: 340px;
+    }
   }
 
   .mainimg {
