@@ -31,7 +31,21 @@ const StyledHeroSection = styled.section`
     margin: 35px 0 0 263px;
     color: #FFFFFF;
     @media (max-width: 480px) {
-      margin: -20% 5% 0 5%;
+      width: 321px;
+      height: 39px;
+      left: 27px;
+      top: 2003px;
+
+      font-family: 'Calibre';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 163.4%;
+
+      /* or 39px */
+
+      color: #FFFFFF;
+      margin: 0 0 0 27px;
       text-align: center;
     }
   }
@@ -54,7 +68,25 @@ const StyledHeroSection = styled.section`
     margin: 56px 0 0 157px;    
     text-align: center;
       @media (max-width: 480px) {
-        margin: 5% 5% 0 5%;
+        width: 332px;
+        height: 227px;
+        left: 22px;
+        top: 2082px;
+
+        font-family: 'Calibre';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+
+        /* or 133% */
+        text-align: center;
+        font-feature-settings: 'cpsp' on;
+
+        color: #FFFFFF;
+
+
+        margin: 40px 0 0 22px;
         padding: 0 0 0 0;
       }
   }
@@ -67,16 +99,31 @@ const StyledHeroSection = styled.section`
     border-radius: 12px;
     margin: 80px 0 0px 14px;
     @media (max-width: 480px) {
-      margin: 10% 0% 0 5%;
-      padding: 0 10% 0 0;
-      max-width: 428px;
-      max-height: 342px;
+      margin: 50px 0 0 24.8px;
+      padding: 0 0 0 0;
+      max-width: 326px;
+      max-height: 205px;
+      min-width: 325px;
+      min-height: 204px;
+      border-radius: 7px;
     }
 }
   .gifborder {
     margin: -631.5px 0 50px 0px;
+    @media (max-width: 480px) {
+      margin: -224px 0 0 21px;
+      width: 333.71px;
+      height: 216px;
+    }
   }
 
+  .break {
+    display: none;
+    @media (max-width: 480px) {
+      display: block;
+      margin: 15px 0 0 0;
+    }
+  }
 `;
 
 const Moxie_Challenges_Find_Challenges = () => {
@@ -91,6 +138,7 @@ const Moxie_Challenges_Find_Challenges = () => {
   const two = <div className="find_challeneges_body">We had a singular message to drive home: Moxie a One Stop Shop for all kinds of
       workouts and is a community in itself where you can go do group challenges of your liking.
       <br></br>
+      <br className='break'></br>
       This added marketplace for Challenges exclusive feature helped us to scale Challenges and place
       the primary focus on discoverability and group features. We placed the top nav bar as the primary
       focus area and added several other carousels curated for the attendees according to their likings.
