@@ -71,7 +71,7 @@ const StyledHeroSection = styled.section`
     text-align: center;
 
     color: #FFFFFF;
-    // margin: 16px 0 0 0;
+    margin: 16px 0 0 0;
 
     @media (max-width: 480px) {
       width: 342px;
