@@ -30,7 +30,7 @@ const StyledHeroSection = styled.section`
     @media (max-width: 480px) {
         max-width: 216px;
         max-height: 433.23px;
-        margin: 30px 0 0 80px;
+        margin: 60px 0 0 80px;
     }
   }
 
@@ -100,6 +100,8 @@ const StyledHeroSection = styled.section`
     color: #FFFFFF;
 
     @media (max-width: 480px) {
+        height: 375px;
+        width: 328px;
         font-family: 'Calibre';
         font-style: normal;
         font-weight: 400;
@@ -140,7 +142,7 @@ const StyledHeroSection = styled.section`
     @media (max-width: 480px) {
         max-width: 216px;
         max-height: 452.24;
-        margin: 30px 0 0 80px;
+        margin: 60px 0 0 80px;
     }
   }
   
