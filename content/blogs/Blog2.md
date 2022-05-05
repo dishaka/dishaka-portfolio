@@ -2,7 +2,7 @@
 date: '2020-03-26'
 title: 'Myths busted about being a self taught UX designer'
 github: ''
-external: 'https://medium.com/design-bootcamp/my-first-six-months-as-a-ux-designer-1a8a7d413d43'
+external: 'https://medium.com/design-bootcamp/myths-busted-about-being-a-self-taught-ux-designer-4f1189425305'
 tech:
 showInProjects: true
 ---

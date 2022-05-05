@@ -1,0 +1,39 @@
+.custom_background {
+    background-image: url(./background_one.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    /* @media (max-width: 480px) {
+        backgroundSize: 100% 30%;
+      } */
+}
+
+@media (max-width: 480px) {
+    .custom_background {
+        background-size: 100% 50%;
+    }
+  }
+
+.custom_background_challenges {
+    background-image: url(./background_one.png);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 480px) {
+    .custom_background_challenges {
+        background-size: 100% 90%;
+    }
+  }
+
+.custom_background_soundcloud {
+    background-image: url(./background_one.png);
+    background-repeat: no-repeat;
+    background-size: 100% 629px;
+    background-position: 0 100%;
+}
+
+
+@media (max-width: 480px) {
+    .custom_background_soundcloud {
+        background-size: 100% 551px;
+    }
+  }

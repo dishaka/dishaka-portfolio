@@ -104,7 +104,8 @@ const Footer = () => {
         </ul>
       </StyledSocialLinks>
 
-{/* <StyledCredit tabindex="-1">
+
+      {/*<StyledCredit tabindex="-1">
         <a href="https://github.com/bchiang7/v4">
           <div>Designed by Dishaka Tarafdar</div>
 
@@ -121,8 +122,8 @@ const Footer = () => {
             </div>
           )}
         </a>
-      </StyledCredit> */}
-    </StyledFooter>
+
+      </StyledCredit>*/}
   );
 };
 
