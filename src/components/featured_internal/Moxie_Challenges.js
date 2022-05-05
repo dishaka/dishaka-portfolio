@@ -44,7 +44,6 @@ const StyledHeroSection = styled.section`
       width: 146px;
       height: 21px;
 
-      font-family: 'Roboto';
       font-style: normal;
       font-weight: 700;
       font-size: 13px;
