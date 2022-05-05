@@ -16,7 +16,7 @@ const StyledMainContainer = styled.main`
 `;
 
 const moxie_challenges = ({ location }) => (
-    <div style={{maxWidth: '100vw'}}>
+    <div style={{maxWidth: '100vw', overflow: 'hidden'}}>
       <Layout location={location}>
 
       <Moxie_challenges />
