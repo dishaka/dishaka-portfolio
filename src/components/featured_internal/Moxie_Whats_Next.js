@@ -32,6 +32,22 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     text-align: center;
 
     color: #979797;
+    @media (max-width: 480px) {
+      width: 195px;
+      height: 20px;
+      left: 141px;
+      top: 8965px;
+
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 163.4%;
+
+      /* identical to box height, or 20px */
+      text-align: center;
+
+      color: #979797;
+    }
   }
   
   .next_project {
@@ -48,6 +64,24 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     text-align: center;
     
     color: #515769;
+    @media (max-width: 480px) {
+      width: 342px;
+      height: 26px;
+      left: 17px;
+      top: 85px;
+
+      font-family: 'Calibre';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 109.4%;
+
+      /* or 26px */
+      text-align: center;
+
+      color: #515769;
+      margin: 16px 0 0 0;
+    }
   }
 
   .line {
@@ -55,6 +89,9 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     height: 165px;
     border-left: 1px solid var(--pink);
     margin: 48px 0 -230px 0;
+    @media (max-width: 480px) {
+      display: none;
+    }
   }
 
 `;
