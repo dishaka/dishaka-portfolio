@@ -105,7 +105,7 @@ const Pop_Whats_Next = () => {
   }, []);
   
 
-  const one = <a className='content' href='soundcloud'>
+  const one = <a className='content' href='../soundcloud'>
                 <div className='next'>NEXT PROJECT >></div>
                 <div className='next_project'>SoundCloud App Re-Design</div>
                 </a>
