@@ -17,7 +17,7 @@ const StyledMainContainer = styled.main`
 `;
 
 const pop_dancing = ({ location }) => (
-    <div style={{maxWidth: '100vw'}}>
+    <div style={{maxWidth: '100vw', overflow: 'hidden'}}>
       <Layout location={location}>
         <Pop_Dancing />
         <Pop_Color />
