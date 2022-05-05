@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Dishaka Tarafdar',
     description:
-      'Dishaka Tarafdar is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Hey! I am Dishaka Tarafdar, a User Experience Designer. I believe in character, kindness, and discipline - that small changes can produce incremental results every day.',
     siteUrl: 'https://dishaka.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',

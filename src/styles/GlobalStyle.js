@@ -7,11 +7,11 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    --dark-pink: #F72E43;
-    --pink: #FF5768;
-    --light-pink: #ff8a96;
-    --lightest-pink: #ffa4ad;
-    --pink-shadow: rgba(255, 87, 104, 0.7);
+    --dark-pink: #16d0be;
+    --pink: #3be2d2;
+    --light-pink: #89f0e6;
+    --lightest-pink: #adfcf4;
+    --pink-shadow: rgba(57, 255, 237, 1);
     --slate: #363a46;
     --light-slate: #444958;
     --lightest-slate: #515769;
