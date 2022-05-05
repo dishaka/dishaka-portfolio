@@ -14,7 +14,9 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     height: 287px;
     margin: 80px 0 0 155px;
     @media (max-width: 480px) {
-      margin: 0 0 75px 5%;
+      margin: 0 0 0px 22px;
+      width: 330px;
+      height: 273px;
     }
   }
 
@@ -29,6 +31,20 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     letter-spacing: 0.01em;
 
     color: #979797;
+    @media (max-width: 480px) {
+      width: 72px;
+      height: 25px;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 163.4%;
+
+      /* identical to box height, or 25px */
+      letter-spacing: 0.01em;
+
+      color: #979797;
+    }
   }
 
   .outcome_p {
@@ -50,8 +66,22 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     margin: 20px 0 0 0;
 
     @media (max-width: 480px) {
-      min-width: 100vw;
-      padding: 0 40px 0 0;
+      width: 332px;
+      height: 236px;
+      left: 22px;
+      top: 11252px;
+
+      font-family: 'Calibre';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+
+      /* or 130% */
+      font-feature-settings: 'cpsp' on;
+
+      color: #000000;
+      margin: 12px 0 0 0;
     }
   }
 
@@ -71,9 +101,25 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     color: #000000;
     margin: 80px 0 0 376px;
     @media (max-width: 480px) {
-      margin: 0 0 0 0;
-      padding: 0vh 5% 0 5%;
-      min-width: 100vw;
+      margin: 30px 0 0 52px;
+      // padding: 0vh 5% 0 5%;
+      min-width: 301px;
+      width: 302px;
+      height: 400px;
+      width: 302px;
+      left: 52px;
+      top: 11762px;
+
+      font-family: 'Calibre';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+
+      /* or 133% */
+      font-feature-settings: 'cpsp' on;
+
+      color: #000000;
     }
   }
 
@@ -81,6 +127,9 @@ const Styled_Moxie_Challenges_Problems_Section = styled.section`
     font-weight: 600;
     margin: 30px 0 0 0;
     display: block;
+    @media (max-width: 480px) {
+      margin: 12px 0 0 0;
+    }
   }
 
 `;
