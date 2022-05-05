@@ -31,9 +31,9 @@ const StyledHeroSection = styled.section`
     margin: 80px 0 0 76px;
     display: flex;
     @media (max-width: 480px) {
-      flex-wrap: wrap;
-      flex-direction: column;
-      margin-left: -9%;
+        flex-direction: column;
+        margin: 0 0 0 22px;
+        height: 326px;
     }
 }
 
@@ -53,7 +53,20 @@ const StyledHeroSection = styled.section`
   
   color: #FFFFFF;
     @media (max-width: 480px) {
-      margin-bottom: 25px;
+      width: 330px;
+      height: 39px;
+      
+      font-family: 'Calibre';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 163.4%;
+      
+      /* or 39px */
+      
+      color: #FFFFFF;
+      
+      
     }
 }
 
@@ -74,8 +87,21 @@ const StyledHeroSection = styled.section`
   margin: 0 0 79px 166px;
   color: #FFFFFF;
     @media (max-width: 480px) {
-      margin: 0 -30px 0 0;
-      padding: 0 0 0 62px;
+      width: 330px;
+      height: 246px;
+
+      font-family: 'Calibre';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+
+      /* or 133% */
+      font-feature-settings: 'cpsp' on;
+
+      color: #FFFFFF;
+      padding: 0;
+      margin: 40px 0 0 0;
     }
 }
 
@@ -96,8 +122,7 @@ const StyledHeroSection = styled.section`
     color: #FFFFFF;
       margin: 112px 0 0 2px;
       @media (max-width: 480px) {
-        padding: 0 0 0 40px;
-        margin-left: -15px;
+        margin: 40px 0 0 22px;
       }
   }
 
@@ -118,8 +143,9 @@ const StyledHeroSection = styled.section`
     color: #FFFFFF;
       margin: 33px 0 0 2px;
       @media (max-width: 480px) {
-        padding: 0 0 0 40px;
-        margin-left: -15px;
+        margin: 100px 0 0 22px;
+
+
       }
   }
 
@@ -132,7 +158,12 @@ const StyledHeroSection = styled.section`
     margin: 40px 0 0 0;
     @media (max-width: 480px) {
         grid-template-columns: auto auto;
-        padding: 0 5px 0 8px;
+        column-gap: 0px;
+        margin: 0;
+        width: 360px;
+        row-gap: 40px;
+        height: 740px;
+        // margin: 40px 0 50px 0px;
       }
   }
 
@@ -150,6 +181,11 @@ const StyledHeroSection = styled.section`
       text-align: center;
 
       color: #C4C4C4;
+      @media (max-width: 480px) {
+        width: 158px;
+        height: 332px;
+        margin: 40px 0 0 22px;
+      }
   }
 
   .mainimg {
@@ -159,10 +195,11 @@ const StyledHeroSection = styled.section`
       min-height: 337px;
       margin: 22px 0 0px 0;
       @media (max-width: 480px) {
-        max-width: 201px;
-        max-height: 301px;
-        min-height: 200px
-        min-height: 300px
+        max-width: 157.57px;
+        max-height: 232.58px;
+        min-width: 157px;
+        min-height: 232px;
+        // margin: 0 0 0 40px;
       }
   }
 
@@ -181,8 +218,11 @@ const StyledHeroSection = styled.section`
       // background: white;
       margin: 10px 0 0 6px;
       @media (max-width: 480px) {
-            min-width: 195px;
-            max-width: 196px;
+          margin: 20px 0 0 7px;
+          min-width: 157px;
+          max-width: 157.5px;
+          min-height: 55px;
+          max-height: 60px;
         }
   }
 
@@ -191,9 +231,17 @@ const StyledHeroSection = styled.section`
     height: 0;
     margin: 0 0 55px 0;
   }
+
+  .margindown {
+    display: none;
+    @media(max-width: 480px) {
+      display: block;
+      margin: 50px 0 0 0;
+    }
+  }
 `;
 
-const Moxie_Challenges_Exp_Ite = () => {
+const Moxie_Challenges_Cards_Design = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -261,8 +309,10 @@ const Moxie_Challenges_Exp_Ite = () => {
                     <div className='extmar'></div>
                 </div>
             </>;
+    
+    const three = <div className='margindown'></div>
 
-  const items = [one, two];
+  const items = [one, two, three];
 
   const backgroundStyle = {
     backgroundImage: `url(${BackgroundOne})`,
@@ -286,4 +336,4 @@ const Moxie_Challenges_Exp_Ite = () => {
   );
 };
 
-export default Moxie_Challenges_Exp_Ite;
+export default Moxie_Challenges_Cards_Design;
