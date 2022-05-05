@@ -28,7 +28,7 @@ const StyledHeroSection = styled.section`
     color: #FFFFFF;
 
     @media (max-width: 480px) {
-      width: 175px;
+      width: 275px;
       height: 39px;
       left: 22px;
       top: 2354px;
