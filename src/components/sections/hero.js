@@ -53,7 +53,7 @@ const Hero = () => {
   const four = (
     <p>
       I'm a Designer based in Mumbai, India, specializing in combining creativity and analytical
-      thinking to innovate and impactful solutions.
+      thinking to innovate impactful solutions.
     </p>
   );
   const five = (
