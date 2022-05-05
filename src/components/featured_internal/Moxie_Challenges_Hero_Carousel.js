@@ -103,8 +103,8 @@ const StyledHeroSection = styled.section`
       display: flex;
       @media (max-width: 480px) {
         height: 630px;
-        width: 330px;
-        margin: -66px 0 0 5px;
+        width: 360px;
+        margin: -66px 0 0 0px;
       }
   }
 
@@ -151,8 +151,9 @@ const StyledHeroSection = styled.section`
     color: #000000;
     margin: 28px 0 0 1px;
     @media (max-width: 480px) {
-      max-width: 100vw;
-      padding: 0px 5% 0px 5%;
+      width: 330px;
+      padding: 0;
+      margin: 0 0 0 22px;
       margin-top: -30px;
     }
 }
@@ -282,8 +283,8 @@ const StyledHeroSection = styled.section`
     display: none;
     @media (max-width: 480px) {
       display: block;
-      width: 321px;
-      height: 262px;
+      width: 330px;
+      height: 278px;
       margin: 40px 0 40px 0px;
     }
   }
@@ -320,7 +321,7 @@ const StyledHeroSection = styled.section`
     display: none;
     @media (max-width: 480px) {
       display: block;
-      width: 311px;
+      width: 330px;
       height: 253px;
       margin: 0 0 66px 0;
     }
