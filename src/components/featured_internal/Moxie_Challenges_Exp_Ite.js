@@ -32,8 +32,9 @@ const StyledHeroSection = styled.section`
       margin: 58px 0 0 76px;
       @media (max-width: 480px) {
         flex-wrap: wrap;
-        flex-direction: column;
-        margin-left: -9%;
+        height: 330px;
+        width: 330px;
+        margin:  0 0 0 22px;
       }
   }
 
@@ -62,7 +63,20 @@ const StyledHeroSection = styled.section`
     
     color: #FFFFFF;
       @media (max-width: 480px) {
-        margin-bottom: 25px;
+        width: 330px;
+        height: 28px;
+
+        font-family: 'Calibre';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 163.4%;
+
+        /* or 39px */
+
+        color: #FFFFFF;
+        margin: 0px 0 0 0;
+
       }
   }
 
@@ -84,8 +98,23 @@ const StyledHeroSection = styled.section`
     color: #FFFFFF;
     margin: 0 0 0 166px;
       @media (max-width: 480px) {
-        margin: 0 -30px 0 0;
-        padding: 0 0 0 62px;
+        width: 330px;
+        height: 262px;
+
+        font-family: 'Calibre';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+
+        /* or 133% */
+        font-feature-settings: 'cpsp' on;
+
+        color: #FFFFFF;
+
+
+        margin: 40px 0px 0 0;
+        padding: 0 0 0 0px;
       }
   }
 
@@ -97,6 +126,7 @@ const StyledHeroSection = styled.section`
     margin: 92px 12px 50px 12px;
     @media (max-width: 480px) {
       grid-template-columns: auto;
+      margin: 40px 0 0 0;
     }
   }
 
@@ -114,7 +144,9 @@ const StyledHeroSection = styled.section`
       text-align: center;
 
       color: #C4C4C4;
-
+      @media (max-width: 480px) {
+        margin: 0 0 0 41.2px;
+      }
 
   }
 
@@ -132,6 +164,11 @@ const StyledHeroSection = styled.section`
       max-width: 293;
       max-height: 288px;
       margin: 12.46px 0 0 0;
+      @media (max-width: 480px) {
+        max-width: 292.81px;
+        max-height: 208.15px;
+        // margin: 0px 0 0 36.2px;
+      }
   }
 
   .mainimg:hover {
@@ -145,6 +182,12 @@ const StyledHeroSection = styled.section`
       margin: 10px 0 0 0;
       margin: 10px 0 0 0;
       // display: none;
+      @media (max-width: 480px) {
+        // margin: 10px 0 0 41.2px;
+        max-width: 293px;
+        max-height: 72px;
+        padding: 0 0 0 5px; 
+      }
   }
 `;
 
