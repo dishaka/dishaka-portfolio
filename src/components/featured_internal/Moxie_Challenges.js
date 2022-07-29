@@ -229,7 +229,7 @@ const Moxie_Challenges = () => {
   const two = <img className="mainimg" src={MainImg} alt="Main img"></img>;
   const three = <div className="text_holder">
                   <div className="left_text">
-                    Providing and open and efficient marketplace is the key use case for visibility of
+                    Providing an open and efficient marketplace is the key use case for visibility of
                     instructors and their fitness challenges, but this functionality was limited at Moxie.
                     <br></br>
                     How could we increase engagement and promote workout in form of challenges? I lead
