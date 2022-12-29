@@ -1,10 +1,10 @@
 ---
 date: '2021-07-05'
 title: 'User Experience Designer'
-company: 'Moxie'
+company: 'PLG Works'
 location: 'Pune, India'
 range: 'June 2021 - Current'
-url: 'https://moxie.xyz/'
+url: 'https://plgworks.com/'
 ---
 
 - Worked for a digital fitness solution (C2C) focusing on the product website and app, for the United States fitness ecosystem
