@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     --slate: #363a46;
     --light-slate: #444958;
     --lightest-slate: #515769;
-    --white: #FAF4F4;
+    --white: #FFFFFF;
     --black: ##3B3B3B;
     --black-tint: rgba(72, 70, 70, 0.1);
 

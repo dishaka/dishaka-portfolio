@@ -7,5 +7,5 @@ range: 'October - December 2020'
 url: 'https://renegadeinsurance.com/'
 ---
 
-- Designed a digital solution aimed at familiarising insurance agents with technology, mobile phones, and the internet to help them manage a business in an organized manner and expand
-- Designed a Careers site for potential candidates, to ease hiring
+- Understanding pain points, conducting research interviews with 10+ clients, ideation and creating prototypes to aid the processes (Insure-tech)
+- Working in collaboration with cross-functional teams of developers, design managers and various other stakeholders of the company to deliver innovative services for agents in the United States insurance ecosystem

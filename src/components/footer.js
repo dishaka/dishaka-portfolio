@@ -11,6 +11,7 @@ const StyledFooter = styled.footer`
   min-height: 70px;
   padding: 15px;
   text-align: center;
+  background: rgba(0,0,0,0.05);
 `;
 
 const StyledSocialLinks = styled.div`

@@ -114,7 +114,7 @@ const Pop_Whats_Next = () => {
   const items = [one, two];
 
   const whiteBackGround = {
-    background: '#FAF4F4',
+    background: '#0000000d',
   }
 
   return (

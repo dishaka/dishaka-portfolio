@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Moxie Challenges'
 cover: './demo.png'
 github: 

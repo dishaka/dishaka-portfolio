@@ -105,16 +105,16 @@ const Moxie_Whats_Next = () => {
   }, []);
   
 
-  const one = <a className='content' href='../pop_dancing'>
+  const one = <a className='content' href='\featured_internal\toolbox'>
                 <div className='next'>NEXT PROJECT >></div>
-                <div className='next_project'>POP Dancing</div>
+                <div className='next_project'>ToolBox</div>
                 </a>
   const two = <div className='line'></div>
 
   const items = [one, two];
 
   const whiteBackGround = {
-    background: '#FAF4F4',
+    background: '#0000000d',
   }
 
   return (
