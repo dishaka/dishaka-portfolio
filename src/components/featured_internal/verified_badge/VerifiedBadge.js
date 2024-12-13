@@ -7,7 +7,7 @@ import MainImg from '../../../../src/images/verifiedbadge/verified_main.png';
 // import CongratulationsImg from '../../../../src/images/verifiedbadge/congratulations.png';
 import CongratulationsImg from '../../../../src/images/verifiedbadge/congratulations.gif';
 import SalesSkyrocketImg from '../../../../src/images/verifiedbadge/sales_skyrocket.png';
-import InclusionValueImg from '../../../../src/images/verifiedbadge/inclusion_value.PNG';
+import InclusionValueImg from '../../../../src/images/verifiedbadge/inclusion_value.png';
 import EarnedItImg from '../../../../src/images/verifiedbadge/earnedit.png';
 import InteractionsImg4 from '../../../../src/images/nft/nft_interact4.gif';
 import BackgroundOne from '../background_one.png';
