@@ -160,7 +160,7 @@ const About = () => {
             </p>
             <p>
               While I love to play Sherlock Holmes - asking critical questions to seek out the
-              users’ problems; occasional car jamming sessions and photography are my choices of
+              users' problems; occasional car jamming sessions and photography are my choices of
               hiatus.
             </p>
 
