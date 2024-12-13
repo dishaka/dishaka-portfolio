@@ -19,8 +19,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/dishaka-tarafdar-877b4117b/',
     },
     {
-      name: 'Behance',
-      url: 'https://www.behance.net/dishakatarafdar',
+      name: 'Youtube',
+      url: 'https://www.youtube.com/@dishakaaa',
     },
     {
       name: 'Instagram',

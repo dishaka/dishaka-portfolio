@@ -12,6 +12,7 @@ const StyledAboutSection = styled.section`
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
+    align-items: center;
 
     @media (max-width: 768px) {
       display: block;
@@ -143,15 +144,13 @@ const About = () => {
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      {/* <h2 className="numbered-heading about-me-width">About Me</h2> */}
 
       <div className="inner">
         <StyledText>
+          <h2 className="numbered-heading">About Me</h2>
           <div>
-            <p>Hey! I am Dishaka Tarafdar, a User Experience Designer.
-              I believe in character, kindness, and discipline - that small changes can produce incremental results every day. I am a graduate in design 
-              and a human-loving professional who works on products and systems that balance simplicity, user expectations and eye-catching aesthetics.
-              My work is driven by the will of bridging users, business, and tech.
+            <p>Currently shaping how fintech teams bridge the merchant acquisition gap in products with PayU. In the past, I've worked with True Sparrow, Myntra, OnePlus and a few other talented teams and built some very exciting products with them.
 
             </p>
 
@@ -165,12 +164,12 @@ const About = () => {
               hiatus.
             </p>
 
-            <p>Software suit I am adept at:</p>
+            {/* <p>Software suit I am adept at:</p> */}
           </div>
 
-          <ul className="skills-list">
+          {/* <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          </ul> */}
         </StyledText>
 
         <StyledPic>

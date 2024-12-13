@@ -57,7 +57,7 @@ const Icon = ({ name }) => {
       return <IconTwitter />;
     case 'Zap':
       return <IconZap />;
-    case 'Behance':
+    case 'Youtube':
       return <IconBehance/>;
     default:
       return <IconExternal />;

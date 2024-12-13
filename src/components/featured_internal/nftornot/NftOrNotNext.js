@@ -105,9 +105,9 @@ const NftOrNot_Whats_Next = () => {
   }, []);
   
 
-  const one = <a className='content' href='\featured_internal\moxie_challenges'>
+  const one = <a className='content' href='\featured_internal\verified_badge'>
                 <div className='next'>NEXT PROJECT >></div>
-                <div className='next_project'>Moxie Challenges</div>
+                <div className='next_project'>Verified Badge</div>
                 </a>
   const two = <div className='line'></div>
 

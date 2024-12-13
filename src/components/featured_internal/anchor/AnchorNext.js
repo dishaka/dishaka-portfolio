@@ -105,9 +105,9 @@ const Anchor_Whats_Next = () => {
   }, []);
   
 
-  const one = <a className='content' href='\featured_internal\prompt_eval'>
+  const one = <a className='content' href='\featured_internal\reconx'>
                 <div className='next'>NEXT PROJECT >></div>
-                <div className='next_project'>Prompt Evaluator</div>
+                <div className='next_project'>ReconX</div>
                 </a>
   const two = <div className='line'></div>
 
