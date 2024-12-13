@@ -7,7 +7,7 @@ import MainImg from '../../../../src/images/verifiedbadge/verified_main.png';
 // import CongratulationsImg from '../../../../src/images/verifiedbadge/congratulations.png';
 import CongratulationsImg from '../../../../src/images/verifiedbadge/congratulations.gif';
 import SalesSkyrocketImg from '../../../../src/images/verifiedbadge/sales_skyrocket.png';
-import InclusionValueImg from '../../../../src/images/verifiedbadge/inclusion_value.png';
+// import InclusionValueImg from '../../../../src/images/verifiedbadge/inclusion_value.png';
 import EarnedItImg from '../../../../src/images/verifiedbadge/earnedit.png';
 import InteractionsImg4 from '../../../../src/images/nft/nft_interact4.gif';
 import BackgroundOne from '../background_one.png';
@@ -712,7 +712,7 @@ const VerifiedBadge = () => {
                   </div>
                   
                   <div className='interaction-1 interaction-row-2 reverse-dir'>
-                    <img className='interactions-image-1 interaction-img-2' src={InclusionValueImg} alt="Building Inclusion & Value"></img>
+                    {/* <img className='interactions-image-1 interaction-img-2' src={InclusionValueImg} alt="Building Inclusion & Value"></img> */}
                     <div className='interactions-text-1'>
                       <div className='interactions-text-1-title interactions-text-multiline'>Building Inclusion & Value</div>
                       <div className='interactions-text-1-text'>The Verified Badge and its presentation are designed to make merchants feel seen, valued, and rewarded within the PayU ecosystem. Instead of just tracking analytics passively, the personalized, visually engaging data celebrates their efforts and consistency, reinforcing a sense of belonging and accomplishment.</div>
